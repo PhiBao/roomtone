@@ -215,6 +215,8 @@ export interface InsightsOptions {
   take?: number;
   page?: number;
   popularityMin?: number;
+  /** Request one specific entity back as the single result (`filter.results.entities`). */
+  pinResult?: string;
 }
 
 /**
@@ -242,6 +244,7 @@ export async function insights(
   if (signal.gender) params["signal.demographics.gender"] = signal.gender;
   if (opts.exclude?.length) params["filter.exclude.entities"] = opts.exclude.join(",");
   if (opts.popularityMin !== undefined) params["filter.popularity.min"] = opts.popularityMin;
+  if (opts.pinResult) params["filter.results.entities"] = opts.pinResult;
 
   try {
     const { data, call } = await qloo<{ results?: { entities?: QlooEntity[] } }>(

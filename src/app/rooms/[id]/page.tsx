@@ -51,9 +51,14 @@ export default async function RoomPage({ params }: { params: Promise<{ id: strin
             <span className="pill">{[room.neighborhood, room.city].filter(Boolean).join(" · ")}</span>
           </div>
         </div>
-        <Link href={`/read?room=${room.id}`} className="btn btn-primary btn-sm">
-          Read a booking against this room
-        </Link>
+        <div className="row">
+          <Link href={`/brief?room=${room.id}`} className="btn btn-sm">
+            Brief
+          </Link>
+          <Link href={`/read?room=${room.id}`} className="btn btn-primary btn-sm">
+            Read a booking
+          </Link>
+        </div>
       </div>
 
       {failure ? (

@@ -120,7 +120,9 @@ function toRoomAct(e: QlooEntity, i: number): RoomAct {
  *
  * We weight each tag by the affinity mass of the acts carrying it, so a genre
  * shared by every act in the room outranks one that appears on a single act.
- * Tag namespaces are kept separate so "genre" and "audience" never blend.
+ * Names are normalised before grouping because Qloo returns the same concept
+ * under several casings ("Post Bop", "Post bop", "Post-Bop") which would
+ * otherwise read as three separate tastes.
  */
 function distillTasteTags(acts: RoomAct[]): RoomProfile["tasteTags"] {
   const total = acts.reduce((s, a) => s + a.affinity, 0) || 1;
@@ -132,14 +134,27 @@ function distillTasteTags(acts: RoomAct[]): RoomProfile["tasteTags"] {
     const seen = new Set<string>();
     for (const t of act.tags) {
       if (!INTERESTING.test(t.id)) continue;
-      // Collapse the qloo-specific leaf tags into their namespace family.
-      const key = `${t.type.split(":")[2] ?? t.type}:${t.name.toLowerCase()}`;
+      const family = t.type.split(":")[2] ?? t.type;
+      const key = `${family}:${t.name.toLowerCase().replace(/[^a-z0-9]+/g, "")}`;
       if (seen.has(key)) continue;
       seen.add(key);
       const cur = acc.get(key);
-      if (cur) cur.weight += share;
-      else acc.set(key, { name: t.name, type: t.type, weight: share });
+      if (cur) {
+        cur.weight += share;
+        // Keep the most readable casing we have seen.
+        if (t.name.length < cur.name.length) cur.name = t.name;
+      } else {
+        acc.set(key, { name: t.name, type: t.type, weight: share });
+      }
     }
+  }
+
+  // Two tags with the same normalised name are the same taste; keep the stronger.
+  const byName = new Map<string, { name: string; type: string; weight: number }>();
+  for (const t of acc.values()) {
+    const key = t.name.toLowerCase().replace(/[^a-z0-9]+/g, "");
+    const cur = byName.get(key);
+    if (!cur || t.weight > cur.weight) byName.set(key, t);
   }
 
   const rank = (t: { weight: number; type: string }) =>
@@ -147,11 +162,10 @@ function distillTasteTags(acts: RoomAct[]): RoomProfile["tasteTags"] {
     // per-act production traits, so they sort first at equal support.
     (/audience/.test(t.type) ? 1.35 : /genre|subgenre/.test(t.type) ? 1.2 : /style|mood|theme/.test(t.type) ? 1.1 : 0.7) * t.weight;
 
-  return [...acc.values()]
+  return [...byName.values()]
     .map((t) => ({ ...t, weight: rank(t) }))
     .sort((x, y) => y.weight - x.weight)
-    .slice(0, 28)
-    .map(({ name, type, weight }) => ({ name, type, weight }));
+    .slice(0, 28);
 }
 
 /* ------------------------------------------------------------------ */
@@ -423,33 +437,85 @@ async function directAffinity(
 export async function getActProfile(actId: string): Promise<ActProfile> {
   const calls: QlooCall[] = [];
 
-  // Qloo does not echo the signal entity back, so the act's own record comes
-  // from /search (which carries tags, genres and external IDs) and the
-  // neighbourhood of comparable acts from /v2/insights.
-  const { entities: found, call: searchCall } = await searchEntities(actId, "urn:entity:artist", 1);
-  calls.push(searchCall);
+  // Qloo never echoes the signal entity back, so the act's own record is fetched
+  // by pinning it as the requested result. Two traps here, both hit in
+  // development: /search matches names rather than uuids, and passing the act as
+  // *both* signal and pinned result returns nothing because Qloo excludes an
+  // entity from its own results. So this call carries no signal at all.
+  const self = await insights("urn:entity:artist", {}, { label: `${actId} → own record`, take: 1, pinResult: actId });
+  calls.push(...self.calls);
+  const record = self.entities[0];
 
   const near = await insights(
     "urn:entity:artist",
     { entities: [actId] },
-    { label: `acts closest to ${found[0]?.name ?? actId}`, take: 12 },
+    { label: `acts closest to ${record?.name ?? actId}`, take: 12 },
   );
   calls.push(...near.calls);
 
-  const self = found[0];
   return {
     entity_id: actId,
-    name: self?.name ?? actId,
-    disambiguation: self?.disambiguation,
-    popularity: self?.popularity,
-    genres: self ? genresOf(self) : [],
-    tags: self ? tagsOf(self) : [],
-    monthlyListeners: self?.properties?.external?.spotify?.[0]?.monthly_listeners,
-    description: self?.properties?.description,
+    name: record?.name ?? actId,
+    disambiguation: record?.disambiguation,
+    popularity: record?.popularity,
+    genres: record ? genresOf(record) : [],
+    tags: record ? tagsOf(record) : [],
+    monthlyListeners: record?.properties?.external?.spotify?.[0]?.monthly_listeners,
+    description: record?.properties?.description,
     similar: near.entities.map(toRoomAct),
-    unmeasured: near.entities.length === 0 && !self,
+    unmeasured: near.entities.length === 0 && !record,
     calls,
   };
+}
+
+/* ------------------------------------------------------------------ */
+/* Sponsorship                                                         */
+/* ------------------------------------------------------------------ */
+
+export interface SponsorFit {
+  actName: string;
+  /** Brands whose audiences overlap this act's, strongest first. */
+  brands: { id: string; name: string; affinity: number }[];
+  /**
+   * How trustworthy this list is.
+   *
+   * Brand affinity is measured cleanly from an *act* and poorly from a venue —
+   * The Stone returns no brands at all, while Pier 36 returns a diffuse list.
+   * So the list is only surfaced when it is tight enough to act on.
+   */
+  confidence: "high" | "low" | "none";
+  calls: QlooCall[];
+}
+
+/**
+ * Which brands actually reach the audience of the act you are booking.
+ *
+ * This is the question a sponsorship desk asks, and Qloo answers it sharply
+ * from an artist: Bad Bunny returns Adidas, Puma, Nike and Converse at the top;
+ * Bill Frisell returns Fender, Gibson and Reverb. Those are sponsorable
+ * categories, not noise.
+ *
+ * The same query anchored on a *venue* is unreliable — venue brand affinity is
+ * diffuse or absent — so we never present it as a room-level result.
+ */
+export async function getSponsorFit(actId: string, actName?: string): Promise<SponsorFit> {
+  const res = await insights(
+    "urn:entity:brand",
+    { entities: [actId] },
+    { label: `${actName ?? "act"} → sponsorable brand categories`, take: 12 },
+  );
+
+  const brands = res.entities
+    .map((e) => ({ id: e.entity_id, name: e.name, affinity: affinity(e) ?? 0 }))
+    .sort((a, b) => b.affinity - a.affinity);
+
+  // A spread this wide means Qloo is returning "everything this audience ever
+  // bought", which is not a sponsorship shortlist. Say so instead of padding.
+  const spread = brands.length >= 2 ? brands[0]!.affinity - brands[brands.length - 1]!.affinity : 1;
+  const confidence: SponsorFit["confidence"] =
+    brands.length === 0 ? "none" : spread <= 0.09 ? "high" : "low";
+
+  return { actName: actName ?? "", brands, confidence, calls: res.calls };
 }
 
 /* ------------------------------------------------------------------ */

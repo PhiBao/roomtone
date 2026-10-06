@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FEATURED_ROOMS, ROOMS } from "@/lib/roomtone/catalog";
-import { getFit, getActProfile } from "@/lib/roomtone/engine";
+import { getFit, getActProfile, getSponsorFit } from "@/lib/roomtone/engine";
 import { Evidence } from "@/components/Evidence";
 import { ActPicker } from "@/components/ActPicker";
 import type { QlooCall } from "@/lib/qloo/types";
@@ -26,6 +26,7 @@ export default async function ReadPage({
   const calls: QlooCall[] = [];
   let act: { id: string; name: string; genres: string[]; similar: { name: string; rank: number; affinity: number; entity_id: string }[] } | null = null;
   let fits: Awaited<ReturnType<typeof getFit>>[] = [];
+  let sponsor: Awaited<ReturnType<typeof getSponsorFit>> | null = null;
   let error: string | null = null;
 
   if (actId) {
@@ -33,6 +34,12 @@ export default async function ReadPage({
       const profile = await getActProfile(actId);
       calls.push(...profile.calls);
       act = { id: profile.entity_id, name: profile.name, genres: profile.genres, similar: profile.similar.slice(0, 8) };
+
+      const sp = await getSponsorFit(actId, profile.name).catch(() => null);
+      if (sp) {
+        sponsor = sp;
+        calls.push(...sp.calls);
+      }
 
       // The room asked about, plus the other featured rooms — a booking decision
       // is never made against one room in isolation.
@@ -204,6 +211,44 @@ export default async function ReadPage({
             </div>
           </section>
 
+          {sponsor && sponsor.brands.length > 0 ? (
+            <section style={{ marginBottom: 28 }}>
+              <h2>Who actually reaches this audience</h2>
+              <p className="dim" style={{ maxWidth: "68ch" }}>
+                Sponsorship selection is done on vibes and follower counts. Qloo can do better: these are the
+                brands whose audiences sit closest to {act.name}&apos;s, measured on the same graph.
+              </p>
+              {sponsor.confidence === "high" ? (
+                <>
+                  <div className="card">
+                    <div className="row">
+                      {sponsor.brands.slice(0, 12).map((b) => (
+                        <span className="tagpill tagpill-audience" key={b.id} title={`affinity ${b.affinity.toFixed(4)}`}>
+                          {b.name}
+                        </span>
+                      ))}
+                    </div>
+                    <p className="tiny faint" style={{ marginTop: 12, marginBottom: 0 }}>
+                      Affinity spread {(sponsor.brands[0]!.affinity - sponsor.brands[sponsor.brands.length - 1]!.affinity).toFixed(3)} —
+                      tight enough to be a shortlist.
+                    </p>
+                  </div>
+                  <div className="notice" style={{ marginTop: 14 }}>
+                    <strong>This is the pitch, and it is a real one.</strong> Roomtone is independent — it sells no
+                    sponsorship, which is the only position from which it can say whether a brand reaches a room at
+                    all. Audience overlap is not a value estimate and says nothing about deal terms.
+                  </div>
+                </>
+              ) : (
+                <div className="notice">
+                  Qloo returns brands for {act.name}, but they span affinity{" "}
+                  {(sponsor.brands[0]!.affinity - sponsor.brands[sponsor.brands.length - 1]!.affinity).toFixed(2)} — too
+                  diffuse to be a shortlist. Showing it as one would be padding, so Roomtone doesn&apos;t.
+                </div>
+              )}
+            </section>
+          ) : null}
+
           {act.similar.length > 0 ? (
             <section style={{ marginBottom: 28 }}>
               <h2>Acts closest to {act.name}</h2>
@@ -225,13 +270,14 @@ export default async function ReadPage({
             </section>
           ) : null}
 
-          <Link
-            href={`/two-rooms?act=${act.id}`}
-            className="btn btn-primary"
-            style={{ marginBottom: 30 }}
-          >
-            Put this act side by side across rooms →
-          </Link>
+          <div className="row" style={{ marginBottom: 30 }}>
+            <Link href={`/brief?room=${room.id}&act=${act.id}`} className="btn btn-primary">
+              Generate the Brief
+            </Link>
+            <Link href={`/two-rooms?act=${act.id}`} className="btn">
+              Side by side across rooms →
+            </Link>
+          </div>
         </>
       ) : null}
 
