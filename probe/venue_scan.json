@@ -1,0 +1,634 @@
+[
+  {
+    "city": "New York City",
+    "query": "Brooklyn Steel",
+    "name": "Brooklyn Steel",
+    "id": "40D3CED6-20A6-4285-97E0-9C8EEA1EC467",
+    "genre": "Event venue",
+    "hood": "Williamsburg",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "New York City",
+    "query": "Music Hall of Williamsburg",
+    "name": "Music Hall of Williamsburg",
+    "id": "F120AC41-430D-42A9-A2D4-9D73096391B8",
+    "genre": "Event venue",
+    "hood": "Williamsburg",
+    "status": "OK ",
+    "acts": [
+      "Parquet Courts",
+      "Wimps",
+      "Iceage",
+      "Ed Schrader's Music Beat",
+      "Savages",
+      "Protomartyr",
+      "Exploded View",
+      "Ought"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Webster Hall",
+    "name": "Webster Hall",
+    "id": "DC82F1E0-5BB9-42A3-B239-885829F7D115",
+    "genre": "Live music venue",
+    "hood": "East Village",
+    "status": "OK ",
+    "acts": [
+      "Yves Tumor",
+      "Arca",
+      "Lil Ugly Mane",
+      "serpentwithfeet",
+      "JPEGMAFIA",
+      "COUCOU CHLOE",
+      "Dean Blunt",
+      "Babyfather"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "The Marlin Room at Webster Hall",
+    "name": "The Marlin Room at Webster Hall",
+    "id": "9B30E7AE-4795-40B9-9C36-47F5965F02E3",
+    "genre": "Night club",
+    "hood": "East Village",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "New York City",
+    "query": "Knockdown Center",
+    "name": "Knockdown Center",
+    "id": "41CD3722-B372-4872-A15F-64E938D0A387",
+    "genre": "Live music venue",
+    "hood": "Maspeth",
+    "status": "OK ",
+    "acts": [
+      "FKA twigs",
+      "Yves Tumor",
+      "Arca",
+      "Kelela",
+      "serpentwithfeet",
+      "COUCOU CHLOE",
+      "Blood Orange",
+      "Tirzah"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Madison Square Garden",
+    "name": "Madison Square Garden",
+    "id": "F9C3DBC0-A18B-445D-B1EB-6C46FD21E465",
+    "genre": "Arena",
+    "hood": "Chelsea",
+    "status": "OK ",
+    "acts": [
+      "Khalid",
+      "Quinn XCII",
+      "blackbear",
+      "Bazzi",
+      "Whethan",
+      "Marc E. Bassy",
+      "Chelsea Cutler",
+      "Lauv"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Barclays Center",
+    "name": "Barclays Center",
+    "id": "727B7C7F-FAB6-4F7F-B4BB-54EA8072F0B2",
+    "genre": "Arena",
+    "hood": "Prospect Heights",
+    "status": "OK ",
+    "acts": [
+      "Young Thug",
+      "PARTYNEXTDOOR",
+      "Bryson Tiller",
+      "Joey Purp",
+      "070 Shake",
+      "Jay Rock",
+      "Future",
+      "Tierra Whack"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "The Fillmore New York",
+    "name": "New York City Center",
+    "id": "BAFB5F9F-6FF2-4F61-A49D-151FED272D1D",
+    "genre": "Performing arts theater",
+    "hood": "Midtown",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "New York City",
+    "query": "Radio City Music Hall",
+    "name": "Radio City Music Hall",
+    "id": "8F249D3F-8E99-4CFF-B449-97058EA194B6",
+    "genre": "Concert hall",
+    "hood": "Midtown",
+    "status": "OK ",
+    "acts": [
+      "Travi$ Scott",
+      "Lil Yachty",
+      "Lil Uzi Vert",
+      "XXXTENTACION",
+      "21 Savage",
+      "Trippie Redd",
+      "NAV",
+      "Jaden Smith"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Bowery Ballroom",
+    "name": "The Bowery Ballroom",
+    "id": "DDEFCBA6-044D-48C2-84DD-31DED0B85111",
+    "genre": "Live music venue",
+    "hood": "Lower East Side",
+    "status": "OK ",
+    "acts": [
+      "Parquet Courts",
+      "Cindy Lee",
+      "Kim Gordon",
+      "U.S. Girls",
+      "Show Me the Body",
+      "Ed Schrader's Music Beat",
+      "Ariel Pink",
+      "Protomartyr"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "The Stone",
+    "name": "The Stone",
+    "id": "E962A47A-8585-452B-8BB4-F53B5612D719",
+    "genre": "Live music venue",
+    "hood": "Greenwich Village",
+    "status": "OK ",
+    "acts": [
+      "John Coltrane Quartet",
+      "Vijay Iyer",
+      "Wayne Shorter",
+      "John Coltrane",
+      "Ahmad Jamal",
+      "Bill Frisell",
+      "Ornette Coleman",
+      "Joshua Redman"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Elsewhere",
+    "name": "ELSEWHERE Lounge & Kitchen",
+    "id": "06DDC64F-8F7B-4D8D-A4BF-452DEC2B9277",
+    "genre": "Lounge",
+    "hood": "Ward 105 Gachibowli",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "New York City",
+    "query": "Saint Vitus",
+    "name": "Saint Vitus Bar",
+    "id": "21E86B03-FEEC-4125-BE9C-3A1993BDC1AE",
+    "genre": "Bar",
+    "hood": "Greenpoint",
+    "status": "OK ",
+    "acts": [
+      "Parquet Courts",
+      "Sheer Mag",
+      "Tony Molina",
+      "Iceage",
+      "Ed Schrader's Music Beat",
+      "Ought",
+      "Wimps",
+      "Show Me the Body"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Terminal 5",
+    "name": "Terminal 5",
+    "id": "14763C24-86DA-4420-8E2B-78CA211D4195",
+    "genre": "Live music venue",
+    "hood": "Hell's Kitchen",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "New York City",
+    "query": "Navy Yard",
+    "name": "Navy Yard Bar & Billiards",
+    "id": "763A568E-3C09-4A16-B176-97CEDAC88332",
+    "genre": "Bar",
+    "hood": null,
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "New York City",
+    "query": "Pier 36 NYC",
+    "name": "Pier 36 NYC",
+    "id": "DB4BAD57-7497-43A6-AECE-B7F3759AE281",
+    "genre": "Event venue",
+    "hood": "Lower East Side",
+    "status": "OK ",
+    "acts": [
+      "Max B",
+      "The Diplomats",
+      "Dungeon Family",
+      "Jadakiss",
+      "Clipse",
+      "Freeway",
+      "Roc Marciano",
+      "Ruff Ryders"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Sony Hall",
+    "name": "Sony Hall",
+    "id": "1C088A46-076B-435F-A892-84256AEB1AFA",
+    "genre": "Live music venue",
+    "hood": "Theater District",
+    "status": "OK ",
+    "acts": [
+      "Pittsburgh Symphony Brass",
+      "Chicago Symphony Orchestra",
+      "Morton Gould",
+      "Ren\u00e9e Fleming",
+      "Vittorio Monti",
+      "Bella Davidovich",
+      "Leopold Stokowski",
+      "Kolyon"
+    ]
+  },
+  {
+    "city": "New York City",
+    "query": "Beacon Theatre",
+    "name": "Beacon Theatre",
+    "id": "508987BF-01C8-4F85-AA12-BB24ED61311D",
+    "genre": "Live music venue",
+    "hood": "Upper West Side",
+    "status": "OK ",
+    "acts": [
+      "Bill Frisell",
+      "B\u00e9la Fleck and the Flecktones",
+      "The Band",
+      "Nels Cline",
+      "The Derek Trucks Band",
+      "Jerry Garcia",
+      "Dr. John",
+      "Joni Mitchell"
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "query": "The Roxy Theatre",
+    "name": "The Roxy Theatre",
+    "id": "6DE773B9-11CE-4EAB-8E4B-2898805BE74E",
+    "genre": "Event venue",
+    "hood": null,
+    "status": "OK ",
+    "acts": [
+      "RICH CHIGGA",
+      "Rex Orange County",
+      "Dallon Weekes",
+      "Lonely God",
+      "blackbear",
+      "Joji",
+      "HUNNY",
+      "The Driver Era"
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "query": "The Troubadour",
+    "name": "The Troubadour",
+    "id": "8486EE14-724B-464D-A437-4AF1E77F2F43",
+    "genre": "Bar",
+    "hood": "Canton de Haut",
+    "status": "OK ",
+    "acts": [
+      "Vagetoz",
+      "Michael Learns to Rock",
+      "Gareth Gates",
+      "Blue",
+      "Westlife",
+      "Maria Shandi",
+      "Kristian Leontiou",
+      "Jikustik"
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "query": "The Echo",
+    "name": "The Echo",
+    "id": "1DD2825A-3887-42CE-8E61-A5F1C7008F36",
+    "genre": "Live music venue",
+    "hood": "Echo Park",
+    "status": "OK ",
+    "acts": [
+      "Tijuana Panthers",
+      "King Khan",
+      "The Almighty Defenders",
+      "King Tuff",
+      "Paint Fumes",
+      "Sonny & The Sunsets",
+      "White Fence",
+      "Ty Segall"
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "query": "Hollywood Palladium",
+    "name": "Hollywood Palladium",
+    "id": "65395B84-D136-4B72-BB4C-EFE7149E957A",
+    "genre": "Concert hall",
+    "hood": "Hollywood",
+    "status": "OK ",
+    "acts": [
+      "Sophie Meiers",
+      "Roy Blair",
+      "The Aquadolls",
+      "Cuco",
+      "The Regrettes",
+      "Matt Champion",
+      "Catie Turner",
+      "Katz\u00f9 Oso"
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "query": "The Greek Theatre",
+    "name": "The Greek Theatre",
+    "id": "A05542DC-53CD-4029-8B06-2A697F227828",
+    "genre": "Amphitheater",
+    "hood": null,
+    "status": "OK ",
+    "acts": [
+      "Born Jamericans",
+      "Leikeli47",
+      "BbyMutha",
+      "Jonell",
+      "Kamaiyah",
+      "Remy Ma",
+      "Terror Fabulous",
+      "Kari Faux"
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "query": "The Novo",
+    "name": "The Novo",
+    "id": "2EE676A5-713C-422C-95E5-6E4AB80AFC70",
+    "genre": "Event venue",
+    "hood": "Downtown",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "Los Angeles",
+    "query": "The Independent",
+    "name": "The Independent",
+    "id": "A2BB8A74-13BF-4A27-B6DE-B4AEDADEB7CF",
+    "genre": "Live music venue",
+    "hood": "Western Addition",
+    "status": "OK ",
+    "acts": [
+      "Papadosio",
+      "Rawayana",
+      "Jon Wayne and The Pain",
+      "Bacalao Men",
+      "Charliepapa",
+      "La Vida Boh\u00e8me",
+      "Los Mentas",
+      "Simplified"
+    ]
+  },
+  {
+    "city": "Chicago",
+    "query": "The Salt Shed",
+    "name": "The Salt Shed",
+    "id": "2D9C17EE-0042-4D57-B0F0-125DC4504F54",
+    "genre": "Live music venue",
+    "hood": "West Town",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "Chicago",
+    "query": "Concord Music Hall",
+    "name": "Concord Music Hall",
+    "id": "752881DF-2647-4AC5-9267-570B045C3AC9",
+    "genre": "Live music venue",
+    "hood": "Logan Square",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "Chicago",
+    "query": "The Empty Bottle",
+    "name": "The Empty Bottle",
+    "id": "8B041C04-D412-4951-9600-0C5B62C7B4C7",
+    "genre": "Live music venue",
+    "hood": "West Town",
+    "status": "OK ",
+    "acts": [
+      "Girl Ultra",
+      "Silvina Moreno",
+      "79.5",
+      "PREP",
+      "Nina Cobham",
+      "supernova",
+      "Buscabulla",
+      "Centavrvs"
+    ]
+  },
+  {
+    "city": "Chicago",
+    "query": "Navy Pier Music Shed",
+    "name": "Ocean City Music Pier",
+    "id": "0E40CAEC-0E3D-411B-A945-ACF55F99C6CC",
+    "genre": "Concert hall",
+    "hood": null,
+    "status": "OK ",
+    "acts": [
+      "Loggins & Messina",
+      "James Taylor",
+      "Ben Taylor",
+      "Shawn Colvin",
+      "Jackie Greene",
+      "Pat McGee Band",
+      "Vance Gilbert",
+      "Stephen Kellogg & the Sixers"
+    ]
+  },
+  {
+    "city": "Chicago",
+    "query": "The Vic Theatre",
+    "name": "The Vic Theatre",
+    "id": "65E5563D-CA07-4DF5-9FA5-B3AAD6C47657",
+    "genre": "Concert hall",
+    "hood": "Lake View",
+    "status": "NOSIG",
+    "acts": []
+  },
+  {
+    "city": "Chicago",
+    "query": "Lincoln Hall",
+    "name": "Lincoln Hall",
+    "id": "7F33E40C-4010-4B52-A945-885C6344BC22",
+    "genre": "Live music venue",
+    "hood": "Lincoln Park",
+    "status": "OK ",
+    "acts": [
+      "Alekesam",
+      "79.5",
+      "Girl Ultra",
+      "Brian Melvin",
+      "Nu Genea",
+      "Barcelona Gipsy Klezmer Orchestra",
+      "Barrio Lindo",
+      "Ayd\u0131n Esen"
+    ]
+  },
+  {
+    "city": "Chicago",
+    "query": "Prysm",
+    "name": "PRYSM Chicago",
+    "id": "1B1817F8-893A-4669-B202-A857912F6044",
+    "genre": "Night club",
+    "hood": "River North",
+    "status": "OK ",
+    "acts": [
+      "Ty Dolla $ign",
+      "Kyle",
+      "Logic",
+      "GoldLink",
+      "Whethan",
+      "DJDS",
+      "Louis the Child",
+      "Towkio"
+    ]
+  },
+  {
+    "city": "London",
+    "query": "The O2 Academy Brixton",
+    "name": "O2 Academy Brixton",
+    "id": "9F365D6C-F680-46B7-A0A6-19905C58ED94",
+    "genre": "Live music venue",
+    "hood": "Lambeth",
+    "status": "OK ",
+    "acts": [
+      "Zena",
+      "max korzh mus",
+      "Nyusha",
+      "Katerina",
+      "Kadnay",
+      "MARUV",
+      "SEREBRO",
+      "MELOVIN"
+    ]
+  },
+  {
+    "city": "London",
+    "query": "Alexandra Palace",
+    "name": "Alexandra Palace",
+    "id": "2343976B-575D-4572-8715-5ED41BC9C525",
+    "genre": "Event venue",
+    "hood": "Muswell Hill",
+    "status": "OK ",
+    "acts": [
+      "\u0410\u043d\u0456 \u041b\u043e\u0440\u0430\u043a",
+      "SEREBRO",
+      "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u041b\u043e\u0431\u043e\u0434\u0430",
+      "\u0422\u0456\u043d\u0430 \u041a\u0430\u0440\u043e\u043b\u044c",
+      "\u041c\u0430\u043a\u0441 \u0411\u0430\u0440\u0441\u043a\u0438\u0445",
+      "\u041f\u043e\u043b\u0438\u043d\u0430 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+      "Alyosha",
+      "\u0414\u0438\u043c\u0430 \u0411\u0438\u043b\u0430\u043d"
+    ]
+  },
+  {
+    "city": "London",
+    "query": "The Roundhouse",
+    "name": "The Roundhouse Bar",
+    "id": "1B78D01B-EAE9-4EC5-819C-BA40A36B3195",
+    "genre": "Bar",
+    "hood": "Put-in-Bay",
+    "status": "OK ",
+    "acts": [
+      "Jake Owen",
+      "Randy Houser",
+      "Chuck Wicks",
+      "Blake Shelton",
+      "Billy Currington",
+      "David Nail",
+      "Luke Bryan",
+      "Joe Nichols"
+    ]
+  },
+  {
+    "city": "London",
+    "query": "Village Underground",
+    "name": "Village Underground",
+    "id": "F109E801-CBFD-44E4-A39E-51180F47738B",
+    "genre": "Live music venue",
+    "hood": "Hackney",
+    "status": "OK ",
+    "acts": [
+      "Manga Saint Hilare",
+      "Ghetts",
+      "Footsie",
+      "D Double E",
+      "The Manor",
+      "JME",
+      "CASisDEAD",
+      "Frisco"
+    ]
+  },
+  {
+    "city": "London",
+    "query": "O2 Academy Islington",
+    "name": "O2 Academy Islington",
+    "id": "F4424586-D281-4CE5-A7A1-A6B6DDFD0D11",
+    "genre": "Live music venue",
+    "hood": "Islington",
+    "status": "OK ",
+    "acts": [
+      "Lady Leshurr",
+      "Manga Saint Hilare",
+      "Kate Linn",
+      "Zena",
+      "Scrufizzer",
+      "Banx & Ranx",
+      "Chip",
+      "Ghetts"
+    ]
+  },
+  {
+    "city": "London",
+    "query": "KOKO",
+    "name": "KOKO",
+    "id": "8C44B830-3521-441F-8964-14FEA4D58DA3",
+    "genre": "Live music venue",
+    "hood": "Saint Pancras",
+    "status": "OK ",
+    "acts": [
+      "AJ Tracey",
+      "Octavian",
+      "Stormzy",
+      "Ghetts",
+      "Chip",
+      "Skepta",
+      "Tion Wayne",
+      "Manga Saint Hilare"
+    ]
+  }
+]
