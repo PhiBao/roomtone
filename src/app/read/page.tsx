@@ -147,7 +147,7 @@ export default async function ReadPage({
               <div style={{ marginTop: 18 }}>
                 <div className="row" style={{ justifyContent: "space-between", marginBottom: 6 }}>
                   <span className="tiny faint">
-                    position within {room.name}&apos;s own top-{primary.percentile === 1 ? "" : ""}acts
+                    position within {room.name}&apos;s own top-50 acts
                   </span>
                   <span className="mono tiny">{Math.round(primary.percentile * 100)}th percentile</span>
                 </div>

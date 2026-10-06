@@ -112,7 +112,9 @@ export default async function TwoRoomsPage({ searchParams }: { searchParams: Pro
                       <div className="meter">
                         <div
                           className="meter-fill"
-                          style={{ width: `${(pct / maxPct) * 100}%`, background: color }}
+                          /* A zero percentile is a real measurement, not a missing one,
+                             so it gets a visible sliver rather than an empty track. */
+                          style={{ width: `${Math.max(0.6, (pct / maxPct) * 100)}%`, background: color }}
                         />
                       </div>
                     </div>

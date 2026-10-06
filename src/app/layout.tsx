@@ -4,6 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Roomtone — every room has an audience",
+  icons: { icon: "/icon.svg" },
   description:
     "Roomtone reads a venue or neighbourhood as a taste object using Qloo's cultural graph, so a promoter can see who is actually in the room before committing a guarantee.",
 };

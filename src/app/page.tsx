@@ -43,9 +43,9 @@ export default function Home() {
 
       <section>
         <div className="card-head">
-          <h2 style={{ margin: 0 }}>Six rooms, six different crowds</h2>
+          <h2 style={{ margin: 0 }}>{FEATURED_ROOMS.length} rooms, {FEATURED_ROOMS.length} different crowds</h2>
           <Link href="/rooms" className="btn btn-sm">
-            All {""}rooms
+            All rooms
           </Link>
         </div>
         <p className="dim" style={{ maxWidth: "64ch" }}>

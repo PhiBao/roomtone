@@ -89,17 +89,37 @@ function tagsOf(e: QlooEntity) {
   return (e.tags ?? []).map((t) => ({ id: t.id, name: t.name, type: t.type }));
 }
 
-/** Genres worth showing a human: Qloo's `genre:` namespace, deduplicated. */
+/**
+ * Genres worth showing a human.
+ *
+ * Qloo attaches the same concept several times — as `primary_genres`, as
+ * `genre:music:*` tags and again under the `genre:qloo:*` mirror — so a naive
+ * read renders "Jazz · Piano · Piano · Modern Jazz". We normalise, dedupe, and
+ * keep only the musical namespace, since venue-style `genre:place:*` tags leak
+ * into artist records and would otherwise describe a building, not a person.
+ */
 function genresOf(e: QlooEntity): string[] {
   const seen = new Set<string>();
+  const out: string[] = [];
+  const add = (raw?: string) => {
+    if (!raw) return;
+    const name = raw.replace(/\s+/g, " ").trim();
+    if (!name || name.length > 28) return;
+    const key = name.toLowerCase().replace(/[^a-z0-9]+/g, "");
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    out.push(name);
+  };
+
+  for (const g of e.properties?.primary_genres ?? []) add(g?.name);
   for (const t of e.tags ?? []) {
-    if (!/^urn:tag:genre:/.test(t.id)) continue;
-    if (/qloo:/.test(t.id) && !/^urn:tag:genre:music/.test(t.id)) continue;
-    seen.add(t.name);
+    if (!/^urn:tag:genre:music:/.test(t.id)) continue;
+    add(t.name);
   }
-  for (const g of e.properties?.primary_genres ?? []) if (g?.name) seen.add(g.name);
-  const explicit = e.properties?.primary_genres ?? [];
-  return [...explicit.map((g) => g.name ?? "").filter(Boolean), ...seen].slice(0, 6);
+  // Prefer distinct, headline-scale genres over micro-subgenres.
+  return out.filter((g) => !/^(piano|saxophone|guitar|trumpet|bass|vocals|drums|percussion)$/i.test(g)).concat(
+    out.filter((g) => /^(piano|saxophone|guitar|trumpet|bass|vocals|drums|percussion)$/i.test(g)),
+  ).slice(0, 6);
 }
 
 function toRoomAct(e: QlooEntity, i: number): RoomAct {

@@ -1,0 +1,187 @@
+{
+    "rooms": [
+        {
+            "id": "727B7C7F-FAB6-4F7F-B4BB-54EA8072F0B2",
+            "name": "Barclays Center",
+            "city": "New York",
+            "neighborhood": "Prospect Heights",
+            "genre": "Arena",
+            "searchedAs": "Barclays Center"
+        },
+        {
+            "id": "F9C3DBC0-A18B-445D-B1EB-6C46FD21E465",
+            "name": "Madison Square Garden",
+            "city": "New York",
+            "neighborhood": "Chelsea",
+            "genre": "Arena",
+            "searchedAs": "Madison Square Garden"
+        },
+        {
+            "id": "65395B84-D136-4B72-BB4C-EFE7149E957A",
+            "name": "Hollywood Palladium",
+            "city": "Los Angeles",
+            "neighborhood": "Hollywood",
+            "genre": "Concert hall",
+            "searchedAs": "Hollywood Palladium"
+        },
+        {
+            "id": "8F249D3F-8E99-4CFF-B449-97058EA194B6",
+            "name": "Radio City Music Hall",
+            "city": "New York",
+            "neighborhood": "Midtown",
+            "genre": "Concert hall",
+            "searchedAs": "Radio City Music Hall"
+        },
+        {
+            "id": "1A6C25DE-4DDB-4B74-8257-62D3B31502C5",
+            "name": "The Greek Theatre",
+            "city": "Los Angeles",
+            "neighborhood": "Los Feliz",
+            "genre": "Amphitheater",
+            "searchedAs": "The Greek Theatre"
+        },
+        {
+            "id": "7F33E40C-4010-4B52-A945-885C6344BC22",
+            "name": "Lincoln Hall",
+            "city": "Chicago",
+            "neighborhood": "Lincoln Park",
+            "genre": "Live music venue",
+            "searchedAs": "Lincoln Hall"
+        },
+        {
+            "id": "8B041C04-D412-4951-9600-0C5B62C7B4C7",
+            "name": "The Empty Bottle",
+            "city": "Chicago",
+            "neighborhood": "West Town",
+            "genre": "Live music venue",
+            "searchedAs": "The Empty Bottle"
+        },
+        {
+            "id": "8C44B830-3521-441F-8964-14FEA4D58DA3",
+            "name": "KOKO",
+            "city": "London",
+            "neighborhood": "Camden",
+            "genre": "Live music venue",
+            "searchedAs": "KOKO"
+        },
+        {
+            "id": "9F365D6C-F680-46B7-A0A6-19905C58ED94",
+            "name": "O2 Academy Brixton",
+            "city": "London",
+            "neighborhood": "Lambeth",
+            "genre": "Live music venue",
+            "searchedAs": "O2 Academy Brixton"
+        },
+        {
+            "id": "F109E801-CBFD-44E4-A39E-51180F47738B",
+            "name": "Village Underground",
+            "city": "London",
+            "neighborhood": "Hackney",
+            "genre": "Live music venue",
+            "searchedAs": "Village Underground"
+        },
+        {
+            "id": "1DD2825A-3887-42CE-8E61-A5F1C7008F36",
+            "name": "The Echo",
+            "city": "Los Angeles",
+            "neighborhood": "Echo Park",
+            "genre": "Live music venue",
+            "searchedAs": "The Echo"
+        },
+        {
+            "id": "508987BF-01C8-4F85-AA12-BB24ED61311D",
+            "name": "Beacon Theatre",
+            "city": "New York",
+            "neighborhood": "Upper West Side",
+            "genre": "Live music venue",
+            "searchedAs": "Beacon Theatre"
+        },
+        {
+            "id": "1C088A46-076B-435F-A892-84256AEB1AFA",
+            "name": "Sony Hall",
+            "city": "New York",
+            "neighborhood": "Theater District",
+            "genre": "Live music venue",
+            "searchedAs": "Sony Hall"
+        },
+        {
+            "id": "DDEFCBA6-044D-48C2-84DD-31DED0B85111",
+            "name": "The Bowery Ballroom",
+            "city": "New York",
+            "neighborhood": "Lower East Side",
+            "genre": "Live music venue",
+            "searchedAs": "The Bowery Ballroom"
+        },
+        {
+            "id": "E962A47A-8585-452B-8BB4-F53B5612D719",
+            "name": "The Stone",
+            "city": "New York",
+            "neighborhood": "Greenwich Village",
+            "genre": "Live music venue",
+            "searchedAs": "The Stone"
+        },
+        {
+            "id": "DC82F1E0-5BB9-42A3-B239-885829F7D115",
+            "name": "Webster Hall",
+            "city": "New York",
+            "neighborhood": "East Village",
+            "genre": "Live music venue",
+            "searchedAs": "Webster Hall"
+        },
+        {
+            "id": "A2BB8A74-13BF-4A27-B6DE-B4AEDADEB7CF",
+            "name": "The Independent",
+            "city": "San Francisco",
+            "neighborhood": "Western Addition",
+            "genre": "Live music venue",
+            "searchedAs": "The Independent"
+        },
+        {
+            "id": "2343976B-575D-4572-8715-5ED41BC9C525",
+            "name": "Alexandra Palace",
+            "city": "London",
+            "neighborhood": "Muswell Hill",
+            "genre": "Event venue",
+            "searchedAs": "Alexandra Palace"
+        },
+        {
+            "id": "F120AC41-430D-42A9-A2D4-9D73096391B8",
+            "name": "Music Hall of Williamsburg",
+            "city": "New York",
+            "neighborhood": "Williamsburg",
+            "genre": "Event venue",
+            "searchedAs": "Music Hall of Williamsburg"
+        },
+        {
+            "id": "DB4BAD57-7497-43A6-AECE-B7F3759AE281",
+            "name": "Pier 36 NYC",
+            "city": "New York",
+            "neighborhood": "Lower East Side",
+            "genre": "Event venue",
+            "searchedAs": "Pier 36 NYC"
+        },
+        {
+            "id": "6DE773B9-11CE-4EAB-8E4B-2898805BE74E",
+            "name": "The Roxy Theatre",
+            "city": "West Hollywood",
+            "neighborhood": null,
+            "genre": "Event venue",
+            "searchedAs": "The Roxy Theatre"
+        },
+        {
+            "id": "21E86B03-FEEC-4125-BE9C-3A1993BDC1AE",
+            "name": "Saint Vitus Bar",
+            "city": "New York",
+            "neighborhood": "Greenpoint",
+            "genre": "Bar",
+            "searchedAs": "Saint Vitus"
+        }
+    ],
+    "featured": [
+        "E962A47A-8585-452B-8BB4-F53B5612D719",
+        "8F249D3F-8E99-4CFF-B449-97058EA194B6",
+        "F120AC41-430D-42A9-A2D4-9D73096391B8",
+        "DC82F1E0-5BB9-42A3-B239-885829F7D115",
+        "508987BF-01C8-4F85-AA12-BB24ED61311D"
+    ]
+}
