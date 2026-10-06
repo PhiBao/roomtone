@@ -1,3 +1,5 @@
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname } from "node:path";
 import { createHash } from "node:crypto";
 
 export interface CacheEntry<T> {
@@ -39,8 +41,6 @@ export class ResponseCache {
 
   private load() {
     try {
-      // Lazily required so this module stays usable in edge-ish contexts.
-      const { readFileSync } = require("node:fs") as typeof import("node:fs");
       const raw = readFileSync(this.filePath!, "utf8");
       const parsed = JSON.parse(raw) as Record<string, CacheEntry<unknown>>;
       const cutoff = Date.now() - STALE_MS;
@@ -65,8 +65,6 @@ export class ResponseCache {
   flush() {
     if (!this.filePath) return;
     try {
-      const { writeFileSync, mkdirSync } = require("node:fs") as typeof import("node:fs");
-      const { dirname } = require("node:path") as typeof import("node:path");
       mkdirSync(dirname(this.filePath), { recursive: true });
       writeFileSync(this.filePath, JSON.stringify(Object.fromEntries(this.mem)));
       this.dirty = false;

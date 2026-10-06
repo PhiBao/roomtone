@@ -13,9 +13,13 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "warm": "tsx scripts/warm-cache.ts",
-    "probe": "tsx scripts/probe.ts"
+    "probe": "tsx scripts/probe.ts",
+    "mcp": "tsx src/mcp/server.ts",
+    "build:mcp": "tsc -p tsconfig.mcp.json",
+    "build:all": "next build && tsc -p tsconfig.mcp.json"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
     "next": "15.5.4",
     "react": "19.1.1",
     "react-dom": "19.1.1",
@@ -30,5 +34,8 @@
     "vitest": "3.2.4"
   },
   "packageManager": "pnpm@11.1.1",
-  "engines": { "node": ">=20.11" }
+  "engines": {
+    "node": ">=20.11"
+  },
+  "type": "module"
 }

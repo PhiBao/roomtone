@@ -44,6 +44,86 @@ function redact(params: Record<string, unknown>): Record<string, string> {
   return out;
 }
 
+/**
+ * Strip Qloo's response down to the fields Roomtone actually reads.
+ *
+ * Qloo entities carry ~60 tags each with alias lists in a dozen languages, plus
+ * akas and verbose external blocks. Caching responses raw produced an 18MB file
+ * for 169 calls, most of it never rendered. We slim before storing so the cache
+ * stays small enough to ship in the container and the demo never pays for
+ * parsing payload we ignore.
+ */
+function slim(data: Record<string, unknown>): Record<string, unknown> {
+  const results = data.results as Record<string, unknown> | undefined;
+  const entities = results?.entities;
+  if (!Array.isArray(entities)) return data;
+
+  const slimEntity = (e: unknown) => {
+    if (!e || typeof e !== "object") return e;
+    const src = e as Record<string, any>;
+    const p = src.properties ?? {};
+    const out: Record<string, unknown> = {
+      entity_id: src.entity_id,
+      name: src.name,
+      subtype: src.subtype,
+      popularity: src.popularity,
+      disambiguation: src.disambiguation,
+      query: src.query,
+    };
+    if (Array.isArray(src.tags)) {
+      out.tags = src.tags.map((t: Record<string, unknown>) => ({
+        id: t.id,
+        name: t.name,
+        type: t.type,
+      }));
+    }
+    const props: Record<string, unknown> = {};
+    for (const k of [
+      "description",
+      "address",
+      "neighborhood",
+      "website",
+      "business_rating",
+      "short_descriptions",
+      "adjectives_for_fans",
+      "adjectives_for_music",
+    ] as const) {
+      if (p[k] !== undefined) props[k] = p[k];
+    }
+    if (p.geocode) {
+      const g = p.geocode as Record<string, unknown>;
+      props.geocode = {
+        name: g.name,
+        city: g.city,
+        admin1_region: g.admin1_region,
+        country_code: g.country_code,
+        metro: g.metro,
+        latitude: g.latitude,
+        longitude: g.longitude,
+      };
+    }
+    if (p.primary_genre) props.primary_genre = { name: p.primary_genre.name, id: p.primary_genre.id };
+    if (p.image?.url) props.image = { url: p.image.url };
+    if (p.price_range) props.price_range = { currency: p.price_range.currency, min: p.price_range.min, max: p.price_range.max };
+    if (p.primary_genres) props.primary_genres = (p.primary_genres as unknown[]).slice(0, 8);
+    if (p.external) {
+      const x = p.external as Record<string, any>;
+      const ext: Record<string, unknown> = {};
+      if (Array.isArray(x.spotify) && x.spotify[0]) {
+        ext.spotify = [{ id: x.spotify[0].id, followers: x.spotify[0].followers, monthly_listeners: x.spotify[0].monthly_listeners }];
+      }
+      if (Array.isArray(x.lastfm) && x.lastfm[0]) ext.lastfm = [{ listeners: x.lastfm[0].listeners }];
+      if (Array.isArray(x.imdb) && x.imdb[0]) ext.imdb = [{ id: x.imdb[0].id }];
+      if (Array.isArray(x.twitter) && x.twitter[0]) ext.twitter = [{ id: x.twitter[0].id }];
+      if (Object.keys(ext).length) props.external = ext;
+    }
+    if (Object.keys(props).length) out.properties = props;
+    return out;
+  };
+
+  return { ...data, results: { ...results, entities: entities.map(slimEntity) } };
+}
+
 async function request(path: string, params: Record<string, unknown>, opts: DoOptions) {
   const safeParams = redact(params);
   const qs = new URLSearchParams(safeParams).toString();
@@ -135,7 +215,7 @@ export async function qloo<T = Record<string, unknown>>(
     try {
       const { data, durationMs, status } = await request(path, params, opts);
       const call = syntheticCall(path, redact(params), opts, "miss", durationMs, countResults(data), status);
-      const withCalls = { ...data, __calls: [call] };
+      const withCalls = { ...slim(data), __calls: [call] };
       cache.set(key, withCalls);
       return { data: withCalls as T, call };
     } catch (err) {

@@ -1,0 +1,41 @@
+{
+  "name": "roomtone",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "Every room has an audience. Roomtone measures it with Qloo's cultural taste graph.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "warm": "tsx scripts/warm-cache.ts",
+    "probe": "tsx scripts/probe.ts",
+    "mcp": "tsx src/mcp/server.ts",
+    "build:mcp": "tsc -p tsconfig.mcp.json",
+    "build:all": "next build && tsc -p tsconfig.mcp.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "next": "15.5.4",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.6",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  },
+  "packageManager": "pnpm@11.1.1",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "type": "module"
+}

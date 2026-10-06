@@ -1,0 +1,49 @@
+# Roomtone — Fly.io deployment.
+#
+# A container, not a serverless function: Roomtone holds a warm Qloo response
+# cache on disk and can spawn the MCP stdio subprocess, both of which need a
+# long-lived process with a real filesystem.
+
+app = "roomtone-qloo"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  NODE_ENV = "production"
+  PORT = "3000"
+  QLOO_BASE_URL = "https://hackathon.api.qloo.com"
+  # The demo reads from a cache file shipped in the image; a writable path lets
+  # the server keep learning across requests.
+  ROOMTONE_CACHE_FILE = "/data/roomtone-cache.json"
+
+# QLOO_API_KEY is a secret, not env:
+#   fly secrets set QLOO_API_KEY=hack_...
+#
+# On first boot the container needs a writable volume at /data. Create it once:
+#   fly volumes create roomtone_data --size 1
+
+[[mounts]]
+  source = "roomtone_data"
+  destination = "/data"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "suspend"
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 40
+    hard_limit = 60
+
+# Cache reads are near-instant; give a cold uncached read room to breathe.
+[[http_service.checks]]
+  grace_period = "20s"
+  interval = "30s"
+  method = "GET"
+  timeout = "10s"
+  path = "/api/health"

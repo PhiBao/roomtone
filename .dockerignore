@@ -1,0 +1,12 @@
+node_modules
+.next
+.next-build
+.git
+.github
+probe
+tests
+*.log
+.roomtone-cache.json
+.env.local
+.env
+dist
