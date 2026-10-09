@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Roomtone thumbnail</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#08080b; --panel:#0e0e13;
+    --ink:#f4f4f6; --muted:#a2a2ae; --faint:#6b6b7a;
+    --coral:#ff5c39; --cool:#59d0d8;
+    --rule:rgba(255,255,255,0.10);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;width:1280px;height:720px;overflow:hidden;background:var(--bg)}
+  body{font-family:'Geist',sans-serif;color:var(--ink)}
+  .rail{position:absolute;left:0;top:0;bottom:0;width:14px;
+    background:linear-gradient(180deg,var(--coral) 0%,#ff8a6a 38%,#8fb9c4 66%,var(--cool) 100%)}
+  .glow{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none}
+  .g1{width:620px;height:420px;left:-140px;top:-120px;background:rgba(255,92,57,.22)}
+  .g2{width:560px;height:400px;right:-160px;bottom:-140px;background:rgba(89,208,216,.14)}
+  .wrap{position:relative;padding:60px 68px 0 78px;height:100%;display:flex;flex-direction:column}
+  .eyebrow{font-family:'Geist Mono',monospace;font-size:13px;letter-spacing:.24em;
+    text-transform:uppercase;color:var(--coral)}
+  .eyebrow i{display:inline-block;width:34px;height:2px;background:var(--coral);
+    vertical-align:middle;margin-right:14px}
+  h1{font-size:112px;line-height:.94;letter-spacing:-.035em;margin:22px 0 0;font-weight:700;
+    background:linear-gradient(96deg,#ff5c39 0%,#ff9a7d 30%,#cfd6d8 55%,#59d0d8 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .tag{margin-top:14px;font-size:29px;font-weight:600;letter-spacing:-.01em;color:var(--ink)}
+  .sub{margin-top:12px;font-size:19px;line-height:1.42;color:var(--muted);max-width:730px}
+  .stats{margin-top:auto;display:flex;gap:0;align-items:stretch;
+    border-top:1px solid var(--rule);padding:22px 0 26px}
+  .stat{padding-right:38px;margin-right:38px;border-right:1px solid var(--rule)}
+  .stat:last-child{border-right:0;margin-right:0}
+  .stat b{display:block;font-size:34px;font-weight:700;letter-spacing:-.02em;line-height:1}
+  .stat span{display:block;margin-top:7px;font-family:'Geist Mono',monospace;
+    font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+  .c1{color:var(--coral)} .c2{color:var(--cool)}
+  .url{position:absolute;right:68px;bottom:60px;font-family:'Geist Mono',monospace;
+    font-size:14px;color:var(--cool)}
+</style>
+</head>
+<body>
+  <div class="rail"></div>
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+  <div class="wrap">
+    <div class="eyebrow"><i></i>Qloo Agentic Hackathon</div>
+    <h1>ROOMTONE</h1>
+    <div class="tag">Every room has an audience.</div>
+    <div class="sub">
+      Reads a live-music venue&rsquo;s local crowd from Qloo&rsquo;s taste graph &mdash; which acts belong to it,
+      which bill covers it, which brands already reach it. Per market, because audiences do not transfer
+      between them.
+    </div>
+    <div class="stats">
+      <div class="stat"><b class="c1">19&times;</b><span>same city vs cross-city</span></div>
+      <div class="stat"><b>231</b><span>room pairs compared</span></div>
+      <div class="stat"><b class="c2">0.000</b><span>median audience overlap</span></div>
+    </div>
+  </div>
+  <div class="url">roomtone.fly.dev</div>
+</body>
+</html>
