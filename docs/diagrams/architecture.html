@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Roomtone architecture</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f7f5f2; --ink:#16161a; --muted:#5c5c66; --soft:#8e8e99;
+    --rule:#ddd9d3; --accent:#d9491f; --accent-tint:rgba(217,73,31,0.07);
+    --link:#1f6f78;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);font-family:'Geist',sans-serif;color:var(--ink)}
+  .frame{max-width:1360px;margin:0 auto;padding:48px 40px}
+  .eyebrow{font-family:'Geist Mono',monospace;font-size:9px;letter-spacing:0.18em;
+    text-transform:uppercase;color:var(--soft);margin:0 0 10px}
+  h1{font-family:'Instrument Serif',serif;font-weight:400;font-size:34px;margin:0 0 8px;letter-spacing:-0.01em}
+  .sub{font-size:13px;color:var(--muted);margin:0 0 32px;max-width:70ch;line-height:1.6}
+  .diagram-container{overflow-x:auto}
+  svg{display:block;min-width:1280px}
+  @media print{ .frame{padding:0} svg{min-width:0} }
+</style>
+</head>
+<body>
+<div class="frame">
+  <p class="eyebrow">Roomtone · architecture</p>
+  <h1>One audited path from Qloo to a decision</h1>
+  <p class="sub">Every number the product puts in front of a user comes through a single logged client. There is no path from any surface to a measurement whose request was not recorded.</p>
+
+<div class="diagram-container">
+<svg viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-labelledby="arch-title arch-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="arch-title">Roomtone architecture</title>
+  <desc id="arch-desc">Qloo's API feeds a typed client that writes an evidence ledger and returns measurements to the engine, which serves three surfaces: a web app, a Booking Desk agent, and an MCP server.</desc>
+  <defs>
+    <marker id="arch-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#5c5c66"/>
+    </marker>
+    <marker id="arch-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#1f6f78"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="720" fill="#f7f5f2"/>
+
+  <!-- ZONES (2+, painted before arrows and nodes) -->
+  <rect x="280" y="148" width="548" height="404" rx="8" fill="rgba(22,22,26,0.02)" stroke="rgba(22,22,26,0.10)" stroke-width="0.8"/>
+  <rect x="298" y="152" width="86" height="12" rx="2" fill="#f7f5f2"/>
+  <text x="341" y="161" fill="rgba(22,22,26,0.42)" font-size="7" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.14em">ROOMTONE CORE</text>
+
+  <rect x="860" y="148" width="380" height="404" rx="8" fill="rgba(22,22,26,0.02)" stroke="rgba(22,22,26,0.10)" stroke-width="0.8"/>
+  <rect x="878" y="152" width="62" height="12" rx="2" fill="#f7f5f2"/>
+  <text x="909" y="161" fill="rgba(22,22,26,0.42)" font-size="7" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.14em">SURFACES</text>
+
+  <!-- ARROWS (before nodes) -->
+  <!-- Qloo API -> typed client -->
+  <line x1="236" y1="324" x2="312" y2="324" stroke="#1f6f78" stroke-width="1.2" marker-end="url(#arch-arrow-link)"/>
+  <rect x="248" y="304" width="52" height="12" rx="2" fill="#f7f5f2"/>
+  <text x="274" y="313" fill="#7a8399" font-size="8" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.06em">X-API-KEY</text>
+
+  <!-- typed client -> engine -->
+  <line x1="516" y1="308" x2="576" y2="308" stroke="#5c5c66" stroke-width="1.2" marker-end="url(#arch-arrow)"/>
+  <!-- typed client -> ledger -->
+  <path d="M 516,340 H 538 Q 546,340 546,348 V 480 Q 546,488 554,488 H 576"
+        fill="none" stroke="#5c5c66" stroke-width="1.2" marker-end="url(#arch-arrow)"/>
+  <rect x="458" y="404" width="76" height="12" rx="2" fill="#f7f5f2"/>
+  <text x="496" y="413" fill="#7a8399" font-size="8" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.06em">RECORDS</text>
+
+  <!-- ledger -> engine: provenance attaches to the measurement -->
+  <line x1="680" y1="444" x2="680" y2="376" stroke="#5c5c66" stroke-width="1.2" marker-end="url(#arch-arrow)"/>
+  <rect x="690" y="400" width="60" height="12" rx="2" fill="#f7f5f2"/>
+  <text x="720" y="409" fill="#7a8399" font-size="8" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.06em">ATTACH</text>
+
+  <!-- engine -> web app -->
+  <path d="M 784,298 H 830 Q 838,298 838,290 V 226 Q 838,218 846,218 H 892"
+        fill="none" stroke="#5c5c66" stroke-width="1.2" marker-end="url(#arch-arrow)"/>
+  <!-- engine -> booking desk -->
+  <line x1="784" y1="324" x2="892" y2="324" stroke="#5c5c66" stroke-width="1.2" marker-end="url(#arch-arrow)"/>
+  <!-- engine -> mcp server -->
+  <path d="M 784,350 H 830 Q 838,350 838,358 V 422 Q 838,430 846,430 H 892"
+        fill="none" stroke="#5c5c66" stroke-width="1.2" marker-end="url(#arch-arrow)"/>
+
+  <!-- NODES -->
+  <!-- Qloo API — external, stands outside the zones -->
+  <rect x="72" y="280" width="164" height="88" rx="6" fill="#f7f5f2"/>
+  <rect x="72" y="280" width="164" height="88" rx="6" fill="rgba(22,22,26,0.03)" stroke="rgba(22,22,26,0.30)" stroke-width="1"/>
+  <rect x="80" y="286" width="52" height="12" rx="2" fill="none" stroke="rgba(22,22,26,0.12)" stroke-width="0.8"/>
+  <text x="106" y="295" fill="rgba(22,22,26,0.6)" font-size="7" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.08em">EXTERNAL</text>
+  <text x="154" y="330" fill="#16161a" font-size="12" font-weight="600" font-family="'Geist',sans-serif" text-anchor="middle">Qloo Taste AI</text>
+  <text x="154" y="346" fill="#5c5c66" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">hackathon.api.qloo.com</text>
+
+  <!-- Typed client -->
+  <rect x="312" y="280" width="204" height="88" rx="6" fill="#f7f5f2"/>
+  <rect x="312" y="280" width="204" height="88" rx="6" fill="#ffffff" stroke="#16161a" stroke-width="1"/>
+  <rect x="320" y="286" width="34" height="12" rx="2" fill="none" stroke="rgba(22,22,26,0.2)" stroke-width="0.8"/>
+  <text x="337" y="295" fill="rgba(22,22,26,0.65)" font-size="7" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.08em">CLIENT</text>
+  <text x="414" y="322" fill="#16161a" font-size="12" font-weight="600" font-family="'Geist',sans-serif" text-anchor="middle">Typed Qloo client</text>
+  <text x="414" y="338" fill="#5c5c66" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">cache · retry · provenance</text>
+  <text x="414" y="354" fill="#8e8e99" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">single audited entry point</text>
+
+  <!-- Engine — focal -->
+  <rect x="576" y="272" width="208" height="104" rx="6" fill="#f7f5f2"/>
+  <rect x="576" y="272" width="208" height="104" rx="6" fill="rgba(217,73,31,0.07)" stroke="#d9491f" stroke-width="1.2"/>
+  <rect x="584" y="278" width="38" height="12" rx="2" fill="none" stroke="rgba(217,73,31,0.4)" stroke-width="0.8"/>
+  <text x="603" y="287" fill="rgba(217,73,31,0.85)" font-size="7" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.08em">ENGINE</text>
+  <text x="680" y="316" fill="#16161a" font-size="12" font-weight="600" font-family="'Geist',sans-serif" text-anchor="middle">Deterministic engine</text>
+  <text x="680" y="332" fill="#5c5c66" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">no model in the scoring path</text>
+  <text x="680" y="350" fill="#8e8e99" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">fit · lift · bill · sponsors</text>
+
+  <!-- Evidence ledger — store -->
+  <rect x="576" y="444" width="208" height="88" rx="6" fill="#f7f5f2"/>
+  <rect x="576" y="444" width="208" height="88" rx="6" fill="rgba(22,22,26,0.05)" stroke="#5c5c66" stroke-width="1"/>
+  <rect x="584" y="450" width="30" height="12" rx="2" fill="none" stroke="rgba(92,92,102,0.4)" stroke-width="0.8"/>
+  <text x="599" y="459" fill="rgba(92,92,102,0.9)" font-size="7" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.08em">STORE</text>
+  <text x="680" y="486" fill="#16161a" font-size="12" font-weight="600" font-family="'Geist',sans-serif" text-anchor="middle">Evidence ledger</text>
+  <text x="680" y="502" fill="#5c5c66" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">endpoint · params · ids · latency</text>
+
+  <!-- Surfaces -->
+  <rect x="892" y="180" width="316" height="76" rx="6" fill="#f7f5f2"/>
+  <rect x="892" y="180" width="316" height="76" rx="6" fill="#ffffff" stroke="#16161a" stroke-width="1"/>
+  <text x="1050" y="212" fill="#16161a" font-size="12" font-weight="600" font-family="'Geist',sans-serif" text-anchor="middle">Web app</text>
+  <text x="1050" y="230" fill="#5c5c66" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">rooms · read · bill · benchmark · brief</text>
+
+  <rect x="892" y="286" width="316" height="76" rx="6" fill="#f7f5f2"/>
+  <rect x="892" y="286" width="316" height="76" rx="6" fill="#ffffff" stroke="#16161a" stroke-width="1"/>
+  <text x="1050" y="318" fill="#16161a" font-size="12" font-weight="600" font-family="'Geist',sans-serif" text-anchor="middle">Booking Desk</text>
+  <text x="1050" y="336" fill="#5c5c66" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">6 typed tools · fixed plan · no LLM</text>
+
+  <rect x="892" y="392" width="316" height="76" rx="6" fill="#f7f5f2"/>
+  <rect x="892" y="392" width="316" height="76" rx="6" fill="#ffffff" stroke="#16161a" stroke-width="1"/>
+  <text x="1050" y="424" fill="#16161a" font-size="12" font-weight="600" font-family="'Geist',sans-serif" text-anchor="middle">MCP server</text>
+  <text x="1050" y="442" fill="#5c5c66" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle">stdio · any MCP client can call it</text>
+
+  <!-- LEGEND -->
+  <line x1="48" y1="646" x2="1232" y2="646" stroke="rgba(22,22,26,0.10)" stroke-width="0.8"/>
+  <text x="48" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.14em">LEGEND</text>
+
+  <rect x="140" y="658" width="14" height="9" rx="2" fill="#ffffff" stroke="#16161a" stroke-width="1"/>
+  <text x="162" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.1em">SERVICE</text>
+
+  <rect x="238" y="658" width="14" height="9" rx="2" fill="rgba(22,22,26,0.05)" stroke="#5c5c66" stroke-width="1"/>
+  <text x="260" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.1em">STORE</text>
+
+  <rect x="326" y="658" width="14" height="9" rx="2" fill="rgba(22,22,26,0.03)" stroke="rgba(22,22,26,0.30)" stroke-width="1"/>
+  <text x="348" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.1em">EXTERNAL</text>
+
+  <rect x="432" y="658" width="14" height="9" rx="2" fill="rgba(217,73,31,0.07)" stroke="#d9491f" stroke-width="1.2"/>
+  <text x="454" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.1em">FOCAL</text>
+
+  <line x1="510" y1="662" x2="542" y2="662" stroke="#1f6f78" stroke-width="1.2"/>
+  <text x="552" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.1em">HTTP / API</text>
+</svg>
+</div>
+</div>
+</body>
+</html>

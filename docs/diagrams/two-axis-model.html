@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Roomtone two-axis model</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f7f5f2; --ink:#16161a; --muted:#5c5c66; --soft:#8e8e99;
+    --rule:#ddd9d3; --accent:#d9491f; --accent-tint:rgba(217,73,31,0.07);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);font-family:'Geist',sans-serif;color:var(--ink)}
+  .frame{max-width:1360px;margin:0 auto;padding:48px 40px}
+  .eyebrow{font-family:'Geist Mono',monospace;font-size:9px;letter-spacing:0.18em;
+    text-transform:uppercase;color:var(--soft);margin:0 0 10px}
+  h1{font-family:'Instrument Serif',serif;font-weight:400;font-size:34px;margin:0 0 8px;letter-spacing:-0.01em}
+  .sub{font-size:13px;color:var(--muted);margin:0 0 32px;max-width:70ch;line-height:1.6}
+  .diagram-container{overflow-x:auto}
+  svg{display:block;min-width:1280px}
+  @media print{ .frame{padding:0} svg{min-width:0} }
+</style>
+</head>
+<body>
+<div class="frame">
+  <p class="eyebrow">Roomtone · the model</p>
+  <h1>Two axes, never one number</h1>
+  <p class="sub">Who plays a room is decided by draw. Whether an act belongs to the room is decided by taste. Collapsing them into a single score is how a promoter gets misled — and our own benchmark is what proved the axes are independent.</p>
+
+<div class="diagram-container">
+<svg viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-labelledby="quad-title quad-desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="quad-title">Taste fit against draw</title>
+  <desc id="quad-desc">A two-by-two model of booking decisions: touring headlines draw but do not fit; local programming fits but does not fill; the bill does both; the rest is a pass.</desc>
+  <defs>
+    <marker id="quad-arrow" markerWidth="9" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <polygon points="9 0, 0 3.5, 9 7" fill="#16161a"/>
+    </marker>
+    <marker id="quad-arrow-end" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#16161a"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="720" fill="#f7f5f2"/>
+
+  <!-- AXES (double-ended) -->
+  <line x1="286" y1="352" x2="994" y2="352" stroke="#16161a" stroke-width="1.2"
+        marker-start="url(#quad-arrow)" marker-end="url(#quad-arrow-end)"/>
+  <line x1="640" y1="596" x2="640" y2="112" stroke="#16161a" stroke-width="1.2"
+        marker-start="url(#quad-arrow)" marker-end="url(#quad-arrow-end)"/>
+
+  <!-- AXIS LABELS — one word per tip, beyond the arrow tips -->
+  <text x="1006" y="356" fill="#16161a" font-size="9" font-family="'Geist Mono',monospace" text-anchor="start" dominant-baseline="middle" letter-spacing="0.18em">FIT</text>
+  <text x="274" y="356" fill="#16161a" font-size="9" font-family="'Geist Mono',monospace" text-anchor="end" dominant-baseline="middle" letter-spacing="0.18em">MISMATCH</text>
+  <text x="640" y="100" fill="#16161a" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.18em">DRAW</text>
+  <text x="640" y="620" fill="#16161a" font-size="9" font-family="'Geist Mono',monospace" text-anchor="middle" letter-spacing="0.18em">NICHE</text>
+
+  <!-- CELL 01 — focal: MISMATCH / DRAW -->
+  <rect x="312" y="122" width="280" height="180" rx="6" fill="rgba(217,73,31,0.07)" stroke="#d9491f" stroke-width="1.2"/>
+  <text x="328" y="146" fill="#d9491f" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.18em" font-weight="600">01 · MISMATCH / DRAW</text>
+  <text x="328" y="180" fill="#16161a" font-size="16" font-weight="600" font-family="'Geist',sans-serif">The touring headline</text>
+  <text x="328" y="206" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">Fills the room on fame alone.</text>
+  <text x="328" y="224" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">The crowd that turns up is not</text>
+  <text x="328" y="242" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">this room&rsquo;s crowd.</text>
+  <text x="328" y="272" fill="#d9491f" font-size="10" font-family="'Geist Mono',monospace">0 of 149 documented plays fit</text>
+
+  <!-- CELL 02 — FIT / DRAW -->
+  <rect x="688" y="122" width="280" height="180" rx="6" fill="rgba(22,22,26,0.04)" stroke="rgba(92,92,102,0.28)" stroke-width="1"/>
+  <text x="704" y="146" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.18em">02 · FIT / DRAW</text>
+  <text x="704" y="180" fill="#16161a" font-size="16" font-weight="600" font-family="'Geist',sans-serif">The bill</text>
+  <text x="704" y="206" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">Belongs to the room and fills it.</text>
+  <text x="704" y="224" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">Rare, and worth paying for.</text>
+  <text x="704" y="242" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">Where both axes agree.</text>
+
+  <!-- CELL 03 — FIT / NICHE -->
+  <rect x="688" y="402" width="280" height="180" rx="6" fill="rgba(22,22,26,0.04)" stroke="rgba(92,92,102,0.28)" stroke-width="1"/>
+  <text x="704" y="426" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.18em">03 · FIT / NICHE</text>
+  <text x="704" y="460" fill="#16161a" font-size="16" font-weight="600" font-family="'Geist',sans-serif">Local programming</text>
+  <text x="704" y="486" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">Belongs to the crowd without</text>
+  <text x="704" y="504" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">filling the room. Here taste is</text>
+  <text x="704" y="522" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">the binding constraint.</text>
+  <text x="704" y="552" fill="#5c5c66" font-size="10" font-family="'Geist Mono',monospace">roomtone&rsquo;s scope</text>
+
+  <!-- CELL 04 — MISMATCH / NICHE -->
+  <rect x="312" y="402" width="280" height="180" rx="6" fill="rgba(22,22,26,0.04)" stroke="rgba(92,92,102,0.28)" stroke-width="1"/>
+  <text x="328" y="426" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.18em">04 · MISMATCH / NICHE</text>
+  <text x="328" y="460" fill="#16161a" font-size="16" font-weight="600" font-family="'Geist',sans-serif">The pass</text>
+  <text x="328" y="486" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">Neither belongs to the room</text>
+  <text x="328" y="504" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">nor sells it. The cheapest</text>
+  <text x="328" y="522" fill="#5c5c66" font-size="11" font-family="'Geist',sans-serif">decision to get right.</text>
+  <text x="328" y="552" fill="#5c5c66" font-size="10" font-family="'Geist Mono',monospace">most of the market</text>
+
+  <!-- LEGEND -->
+  <line x1="48" y1="646" x2="1232" y2="646" stroke="rgba(22,22,26,0.10)" stroke-width="0.8"/>
+  <text x="48" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.14em">LEGEND</text>
+  <rect x="140" y="658" width="14" height="9" rx="2" fill="rgba(217,73,31,0.07)" stroke="#d9491f" stroke-width="1.2"/>
+  <text x="162" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.1em">HEADLINE FINDING</text>
+  <rect x="300" y="658" width="14" height="9" rx="2" fill="rgba(22,22,26,0.04)" stroke="rgba(92,92,102,0.28)" stroke-width="1"/>
+  <text x="322" y="666" fill="#5c5c66" font-size="8" font-family="'Geist Mono',monospace" letter-spacing="0.1em">CANDIDATE OUTCOME</text>
+</svg>
+</div>
+</div>
+</body>
+</html>
