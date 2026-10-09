@@ -5,9 +5,15 @@ import type { QlooCall, QlooEntity, InsightsResult } from "./types";
 const KEY = process.env.QLOO_API_KEY;
 const BASE = (process.env.QLOO_BASE_URL ?? "https://hackathon.api.qloo.com").replace(/\/+$/, "");
 
-if (!KEY && process.env.NODE_ENV === "production" && !process.env.ROOMTONE_ALLOW_NO_KEY) {
-  throw new Error("QLOO_API_KEY is required in production.");
-}
+/**
+ * Deliberately no throw at import time.
+ *
+ * An earlier version hard-failed in production without a credential, which
+ * broke `next build` itself on any machine without the key — including CI and
+ * the Docker build stage, where the credential is a runtime secret and must not
+ * be present. A missing key is now a request-time error, so the app still builds
+ * and every non-Qloo surface still renders.
+ */
 
 const cache = new ResponseCache(process.env.ROOMTONE_CACHE_FILE);
 

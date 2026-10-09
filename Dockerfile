@@ -35,4 +35,7 @@ EXPOSE 3000
 
 # The Qloo credential must arrive as a secret, never baked into the image.
 # Locally: .env.local. In production, set QLOO_API_KEY on the host.
-CMD ["node", ".next-build/server.js"]
+COPY scripts/entrypoint.sh /app/scripts/entrypoint.sh
+RUN chmod +x /app/scripts/entrypoint.sh
+
+CMD ["/app/scripts/entrypoint.sh"]

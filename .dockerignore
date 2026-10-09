@@ -6,7 +6,6 @@ node_modules
 probe
 tests
 *.log
-.roomtone-cache.json
 .env.local
 .env
 dist
