@@ -9,7 +9,7 @@ import type { RoomAct } from "../src/lib/roomtone/engine";
  */
 
 function act(name: string, affinity: number, rank: number): RoomAct {
-  return { entity_id: `id-${name}`, name, affinity, rank, tags: [], genres: [] };
+  return { entity_id: `id-${name}`, name, affinity, rank, tags: [], genres: [], popularity: affinity };
 }
 
 describe("fit percentiles", () => {

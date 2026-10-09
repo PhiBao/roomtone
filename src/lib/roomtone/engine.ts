@@ -16,6 +16,9 @@ export interface RoomAct {
   tags: { id: string; name: string; type: string }[];
   genres: string[];
   monthlyListeners?: number;
+  /** Qloo's popularity percentile. Needed by the lift metric to remove the
+   *  popularity bias otherwise baked into raw affinity. */
+  popularity: number;
   disambiguation?: string;
 }
 
@@ -86,7 +89,11 @@ function labelsFor(entities: { entity_id: string; name: string }[], ids: string[
 }
 
 function tagsOf(e: QlooEntity) {
-  return (e.tags ?? []).map((t) => ({ id: t.id, name: t.name, type: t.type }));
+  // Qloo can return a bare `{type}` with no id/name. Drop those here too, so a
+  // consumer can never crash on a malformed tag even from an uncached payload.
+  return (e.tags ?? [])
+    .filter((t) => typeof t.id === "string" && typeof t.name === "string")
+    .map((t) => ({ id: t.id, name: t.name, type: t.type }));
 }
 
 /**
@@ -131,6 +138,7 @@ function toRoomAct(e: QlooEntity, i: number): RoomAct {
     tags: tagsOf(e),
     genres: genresOf(e),
     monthlyListeners: e.properties?.external?.spotify?.[0]?.monthly_listeners,
+    popularity: e.popularity ?? 0,
     disambiguation: e.disambiguation,
   };
 }

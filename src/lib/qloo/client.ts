@@ -77,11 +77,12 @@ function slim(data: Record<string, unknown>): Record<string, unknown> {
       query: src.query,
     };
     if (Array.isArray(src.tags)) {
-      out.tags = src.tags.map((t: Record<string, unknown>) => ({
-        id: t.id,
-        name: t.name,
-        type: t.type,
-      }));
+      // Qloo occasionally emits a bare `{"type": "urn:tag:..."}` with no id and
+      // no name. Keeping those would break every downstream consumer that
+      // renders a tag, so they are dropped at the boundary.
+      out.tags = src.tags
+        .map((t: Record<string, unknown>) => ({ id: t.id, name: t.name, type: t.type }))
+        .filter((t: { id?: unknown; name?: unknown }) => typeof t.id === "string" && typeof t.name === "string");
     }
     const props: Record<string, unknown> = {};
     for (const k of [
@@ -323,7 +324,10 @@ export async function insights(
     take: opts.take ?? 20,
     page: opts.page ?? 1,
   };
-  if (signal.entities?.length) params["signal.interests.entities"] = signal.entities.join(",");
+  // Callers sometimes pass a single id as a string; normalise so a stray value
+  // doesn't crash the whole request.
+  const ids = signal.entities ? (Array.isArray(signal.entities) ? signal.entities : [signal.entities]) : [];
+  if (ids.length) params["signal.interests.entities"] = ids.join(",");
   if (signal.tags?.length) params["signal.interests.tags"] = signal.tags.join(",");
   if (signal.audiences?.length) params["signal.demographics.audiences"] = signal.audiences.join(",");
   if (signal.age) params["signal.demographics.age"] = signal.age;
