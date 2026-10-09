@@ -6,7 +6,7 @@ Roomtone reads a live-music venue as a *taste object* using [Qloo](https://qloo.
 cultural graph — who the room's local crowd actually is, what they listen to, which acts belong
 to them, and which brands already reach them.
 
-**[Live demo →](https://roomtone.fly.dev)** · Apache-2.0 · Built for the **Qloo Agentic Hackathon**
+**[Live demo →](https://roomtone.fly.dev)** · Apache-2.0 · Built for the **Qloo Agentic Hackathon** · [full submission writeup](docs/SUBMISSION.md)
 
 ---
 
@@ -103,6 +103,50 @@ monotone submodular, so greedy carries a (1 − 1/e) ≈ 63% approximation bound
 Beacon Theatre's generated bill — Mike Gordon, Joni Mitchell, Miles Davis, Captain Beefheart, The
 Band — covers **59%** of the room's audience signature. Booking the top five by affinity covers
 **16%**. Average gain across all rooms: **+47 points**. → [`/bill`](https://roomtone.fly.dev/bill)
+
+## The business
+
+**The problem worth money.** A promoter commits a guarantee — venue hire, artist fee,
+production — before a single ticket sells. Live Nation told the UK Parliament in January 2026
+that the only third-party reporting available is *"self-reported, selective and incomplete."*
+The decision rests on two variables: **draw** (will people come) and **fit** (are they *this
+room's* people). Only the first has data. Roomtone sells the second.
+
+**Why the pricing is naturally per-market.** Two rooms in the same city share 3.7% of their
+audience; two rooms in different cities share 0.2% — a 19× difference. If audience transfer
+between markets were inferable from a national popularity number, one chart would be enough. It
+isn't, so every market has to be read separately. The unit of value is the market, and that is
+the unit of price.
+
+**Who pays.**
+
+- **Independent promoters.** The April 2026 antitrust verdict found Ticketmaster unlawfully
+  monopolising ticketing, and NIVA is pressing for a remedy capping Live Nation's promotion
+  share. If it lands, hundreds of promoters get routes into rooms they never had — with no demand
+  data behind them.
+- **Venue programming directors** choosing a season for their own crowd.
+- **Sponsorship desks.** Live Nation Media & Sponsorship booked 95% of its 2026 commitments
+  before the year began, against $1.3B of revenue, with no independent measure of whether those
+  brands reached the audience they were sold. Roomtone sells no sponsorship — the only position
+  from which that can be measured.
+
+**Model.** Free to read any room: the read is specific and shareable, so it carries its own
+distribution. Paid per market for saved rooms, watchlists, the Brief, the bill builder and
+sponsorship reach.
+
+**Why it can last.** Not the data — Qloo licenses it to anyone. The accumulating assets are the
+geography-verified venue→audience mappings, the measurement discipline that makes every number
+auditable, and a benchmark methodology a competitor would have to reproduce to make the same
+claims.
+
+**Where it goes.** The most defensible shape is not a dashboard, it is infrastructure.
+Ticketmaster shipped an MCP integration into Gemini in August 2026; every booking agent that
+gets wired up needs the same missing primitive — *who is this room's audience*. Roomtone already
+exposes its measurements over MCP. The wedge is a promoter's shortlist; the platform is the taste
+layer other booking systems call.
+
+**What we are not.** We do not predict draw, and we say so on every page. Popularity predicts
+draw at 0.995 AUC; that problem is solved. Ours is the one beside it.
 
 ## Architecture
 
