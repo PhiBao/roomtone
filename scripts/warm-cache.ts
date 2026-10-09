@@ -10,6 +10,7 @@
  */
 import { ROOMS } from "../src/lib/roomtone/catalog";
 import { getRoomProfile, getActProfile, resolveAct, getFit } from "../src/lib/roomtone/engine";
+import { readRoomSponsors } from "../src/lib/roomtone/sponsors";
 import { flushCache, cacheStats } from "../src/lib/qloo/client";
 
 /** Acts we want cover for out of the box — recognisable names, wide genre spread. */
@@ -94,8 +95,22 @@ async function main() {
     }
   });
 
+  // Room sponsorship reads are 8 Qloo calls each and must not be cold during a
+  // demo, so warm them last.
+  console.log(`\nWarming room sponsorship reads for ${rooms.length} rooms…`);
+  let sponsors = 0;
+  await pool(rooms, 2, async (room) => {
+    try {
+      const r = await readRoomSponsors(room.id, 8);
+      sponsors++;
+      console.log(`  ${room.name.padEnd(28).slice(0, 28)} ${r.confidence.padEnd(7)} ${r.sponsors.length} brands`);
+    } catch (err) {
+      console.warn(`  ! ${room.name}: ${err instanceof Error ? err.message.slice(0, 100) : String(err)}`);
+    }
+  });
+
   flushCache();
-  console.log(`\nDone. ${fits} fits computed · ${unmeasured} rooms unmeasured · cache entries: ${cacheStats().entries}`);
+  console.log(`\nDone. ${fits} fits · ${sponsors} sponsor reads · ${unmeasured} rooms unmeasured · cache entries: ${cacheStats().entries}`);
 }
 
 main().catch((err) => {

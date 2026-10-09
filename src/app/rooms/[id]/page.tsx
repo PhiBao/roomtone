@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ROOMS } from "@/lib/roomtone/catalog";
 import { getRoomProfile, getScenePeers } from "@/lib/roomtone/engine";
+import { readRoomSponsors } from "@/lib/roomtone/sponsors";
 import { Evidence } from "@/components/Evidence";
 import { ActList } from "@/components/RoomCard";
 import type { QlooCall } from "@/lib/qloo/types";
@@ -14,6 +15,7 @@ export default async function RoomPage({ params }: { params: Promise<{ id: strin
 
   let profile: Awaited<ReturnType<typeof getRoomProfile>> | null = null;
   let peers: Awaited<ReturnType<typeof getScenePeers>>["peers"] = [];
+  let sponsor: Awaited<ReturnType<typeof readRoomSponsors>> | null = null;
   const calls: QlooCall[] = [];
   let failure: string | null = null;
 
@@ -31,7 +33,18 @@ export default async function RoomPage({ params }: { params: Promise<{ id: strin
       peers = r.peers;
       calls.push(...r.calls);
     } catch {
-      /* ignore */
+      /* scene overlap is enrichment */
+    }
+  }
+
+  // Sponsorship is the commercial payoff of the local-audience read, so it sits
+  // in the room's main flow rather than on a separate page.
+  if (profile && !profile.unmeasured) {
+    try {
+      sponsor = await readRoomSponsors(id, 8);
+      calls.push(...sponsor.calls);
+    } catch {
+      /* a missing sponsor read is not worth failing the page over */
     }
   }
 
@@ -166,6 +179,53 @@ export default async function RoomPage({ params }: { params: Promise<{ id: strin
             </section>
           ) : null}
         </>
+      ) : null}
+
+      {sponsor && sponsor.sponsors.length > 0 ? (
+        <section style={{ marginBottom: 34 }}>
+          <h2>Which brands this crowd already buys</h2>
+          <p className="dim" style={{ maxWidth: "70ch" }}>
+            Qloo&apos;s brand affinity is sharp from an act and diffuse from a venue, so this is composed: the
+            brands whose audiences overlap the {" "}
+            <em>local</em> acts whose audiences are closest to {room.name}&apos;s crowd — built from{" "}
+            {sponsor.actsSampled} of them, weighted by how close each is to the room.
+          </p>
+          {sponsor.confidence === "high" ? (
+            <div className="card">
+              <div className="card-head">
+                <h3 style={{ margin: 0 }}>
+                  Sponsorable categories for {room.name}&apos;s crowd
+                </h3>
+                <span className="pill pill-core">reach-weighted</span>
+              </div>
+              <div className="row">
+                {sponsor.sponsors.map((b) => (
+                  <span
+                    className="tagpill tagpill-audience"
+                    key={`${b.id}-${b.name}`}
+                    title={`reach ${b.reach.toFixed(3)} — via ${b.via.join(", ")}`}
+                  >
+                    {b.name}
+                  </span>
+                ))}
+              </div>
+              <p className="tiny faint" style={{ marginTop: 14, marginBottom: 0 }}>
+                Reach is the affinity-weighted share of this room&apos;s audience overlapping each brand. Hover any
+                brand for the local acts that connect it to the crowd.
+              </p>
+            </div>
+          ) : (
+            <div className="notice">
+              {sponsor.note}
+            </div>
+          )}
+          <div className="notice" style={{ marginTop: 14 }}>
+            This is a read of <strong>who is already there</strong>, not of who a touring headline would bring on a
+            given night. Live Nation Media &amp; Sponsorship booked most of its 2026 commitments before the year
+            began; by its own account there is no independent measure of whether those brands reached the audience
+            they were sold. Roomtone sells no sponsorship, which is the only position this read is credible from.
+          </div>
+        </section>
       ) : null}
 
       <Evidence calls={calls} />

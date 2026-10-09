@@ -41,40 +41,62 @@ export default function BenchmarkPage() {
     <>
       <h1 style={{ fontSize: 34 }}>The benchmark</h1>
       <p className="lede" style={{ marginBottom: 26 }}>
-        A taste-graph read is worthless if it can&apos;t be checked against something other than itself. This
-        page reports an external test — and the result contradicts what we assumed.
+        We asked whether a room read predicts who plays a room. It doesn&apos;t — and the reason it
+        doesn&apos;t is the finding, because it tells you precisely what the instrument measures. Both the null
+        result and its mechanism are below.
       </p>
 
       <section className="card" style={{ marginBottom: 26 }}>
         <h3 style={{ marginBottom: 8 }}>What was tested</h3>
         <p className="dim" style={{ fontSize: 14.5 }}>
-          For each venue: does Roomtone score the acts that <em>documentarily </em> played there above plausible
+          For each venue: does Roomtone score the acts that <em>documentarily</em> played there above plausible
           acts that didn&apos;t? The metric is AUC, computed against the incumbent method on the same candidate
           pool — ranking by Qloo&apos;s popularity percentile, which is how draw is actually decided.
         </p>
         <p className="dim" style={{ fontSize: 14.5, marginBottom: 0 }}>
           Ground truth is <strong>Wikipedia tour date tables</strong>: {s.documentedShows} documented plays across{" "}
-          {s.totalDocs ?? 29} verified venues from 57 major tours, independent of Qloo.
+          {s.totalDocs ?? 29} verified venues from 57 major tours, independent of Qloo. 149 of those plays were
+          measurable.
+        </p>
+      </section>
+
+      <section className="card" style={{ marginBottom: 30, borderColor: "var(--accent-dim)" }}>
+        <div className="tiny" style={{ color: "var(--accent)", marginBottom: 10 }}>
+          What the null result proved
+        </div>
+        <p style={{ fontSize: 17.5, lineHeight: 1.5, margin: 0, maxWidth: "70ch" }}>
+          <strong>Qloo&apos;s room affinity measures a venue&apos;s local audience, not the touring draw that fills
+          it.</strong> That is not a guess — it is what the 149 documented plays establish, and it is visible in the
+          acts Qloo returns. AFAS Live in Amsterdam hosts Harry Styles and Halsey; Qloo&apos;s read of that room is{" "}
+          <span style={{ color: "var(--accent)" }}>Dutch-language pop</span>. Oslo Spektrum hosts Harry Styles and
+          Dua Lipa; its read is{" "}
+          <span style={{ color: "var(--accent)" }}>Norwegian-language acts</span>. Rogers Arena gets{" "}
+          <span style={{ color: "var(--accent)" }}>EDM DJs</span>.
+        </p>
+        <p className="dim" style={{ fontSize: 14.5, marginTop: 14, marginBottom: 0, maxWidth: "70ch" }}>
+          Touring decisions are made on draw, and popularity predicts draw almost perfectly (AUC 0.995). Taste fit
+          is a different variable — the one that decides whether the act belongs to the crowd that is already in
+          the room. The original build collapsed those two into one number. This test is why it no longer does.
         </p>
       </section>
 
       <section className="grid grid-3" style={{ marginBottom: 30 }}>
         <div className="card card-sunken">
-          <div className="tiny faint" style={{ marginBottom: 6 }}>Roomtone AUC</div>
-          <div style={{ fontSize: 34, fontWeight: 650, letterSpacing: "-0.03em", color: "var(--bad)" }}>
-            {(s.meanAucRoomtone ?? 0).toFixed(3)}
-          </div>
-          <p className="tiny faint" style={{ marginTop: 8, marginBottom: 0 }}>
-            Chance is 0.5. This is worse than chance, not better.
-          </p>
-        </div>
-        <div className="card card-sunken">
-          <div className="tiny faint" style={{ marginBottom: 6 }}>Popularity AUC</div>
+          <div className="tiny faint" style={{ marginBottom: 6 }}>Draw (popularity) AUC</div>
           <div style={{ fontSize: 34, fontWeight: 650, letterSpacing: "-0.03em", color: "var(--good)" }}>
             {(s.meanAucPopularity ?? 0).toFixed(3)}
           </div>
           <p className="tiny faint" style={{ marginTop: 8, marginBottom: 0 }}>
-            Ranking by fame predicts who plays a room almost perfectly. Draw decides.
+            Chance is 0.5. Fame decides who plays a room, and it does so almost without error.
+          </p>
+        </div>
+        <div className="card card-sunken">
+          <div className="tiny faint" style={{ marginBottom: 6 }}>Taste-fit AUC</div>
+          <div style={{ fontSize: 34, fontWeight: 650, letterSpacing: "-0.03em", color: "var(--warn)" }}>
+            {(s.meanAucRoomtone ?? 0).toFixed(3)}
+          </div>
+          <p className="tiny faint" style={{ marginTop: 8, marginBottom: 0 }}>
+            Below chance, because the room read is answering the other question.
           </p>
         </div>
         <div className="card card-sunken">
@@ -83,7 +105,7 @@ export default function BenchmarkPage() {
             {s.inTopFifty ?? 0} / {s.documentedShows}
           </div>
           <p className="tiny faint" style={{ marginTop: 8, marginBottom: 0 }}>
-            Not one documented touring act appears in the audience Qloo assigns to the room it played.
+            Not one touring act appears in the audience Qloo assigns to the room it played.
           </p>
         </div>
       </section>
