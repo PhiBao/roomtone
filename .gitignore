@@ -7,3 +7,5 @@ out
 .DS_Store
 .roomtone-cache.json
 *.tsbuildinfo
+discrimination.json
+benchmark-populations.json

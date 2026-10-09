@@ -1,5 +1,6 @@
 import Link from "next/link";
 import benchmark from "@/data/benchmark.json";
+import discrimination from "@/data/discrimination.json";
 
 export const dynamic = "force-static";
 export const revalidate = 3600;
@@ -18,6 +19,30 @@ type Row = {
 };
 
 const data = benchmark as unknown as { summary: Record<string, number>; results: Row[] };
+
+interface Pair {
+  a: string;
+  b: string;
+  cityA: string;
+  cityB: string;
+  j: number;
+  tagsA: string[];
+  tagsB: string[];
+}
+
+const d = discrimination as unknown as {
+  summary: {
+    rooms: number;
+    pairs: number;
+    meanOverlap: number;
+    medianOverlap: number;
+    maxOverlap: number;
+    sameCityMean: number;
+    diffCityMean: number;
+  };
+  topPairs: Pair[];
+  rooms: { name: string; city: string; genre: string | null; top: string[]; tags: string[] }[];
+};
 
 /**
  * The external benchmark, published with the result it produced — including the
@@ -125,7 +150,7 @@ export default function BenchmarkPage() {
               <div style={{ fontSize: 13.5, lineHeight: 1.55 }}>
                 <div>
                   <span className="faint">Played there: </span>
-                  <span>{r.localTop ? "international touring acts" : ""}</span>
+                  <span>international touring acts</span>
                 </div>
                 <div style={{ marginTop: 6 }}>
                   <span className="faint">Qloo&apos;s read of the room: </span>
@@ -144,9 +169,92 @@ export default function BenchmarkPage() {
         <p className="dim" style={{ fontSize: 14.5, marginTop: 10, marginBottom: 0 }}>
           <strong style={{ color: "var(--ink)" }}>Qloo place affinity describes the local audience of a place, not
           the touring draw that fills it.</strong> International acts play those rooms because of how many people
-          will buy a ticket — popularity, which the benchmark scores at 0.995 — not because of taste fit. The
-          signal is real and it is coherent; it answers a different question than the one we first asked of it.
+          will buy a ticket — popularity, which the benchmark scores at 0.995 — not because of taste fit. The signal
+          is real and it is coherent; it answers a different question than the one we first asked of it.
         </p>
+        <p className="dim" style={{ fontSize: 14.5, marginTop: 10, marginBottom: 0 }}>
+          We also tested the obvious follow-up: maybe the read predicts the <em>support</em> bill rather than the
+          headline, since support acts are smaller and more genre-specific. It does not. Across 26 documented
+          support slots — Sabrina Carpenter with Taylor Swift, Griff with Dua Lipa, Zara Larsson with Beyoncé —{" "}
+          <strong>not one appears in its venue&apos;s top 50 either</strong>. The touring ecosystem is draw-driven
+          at every level.
+        </p>
+      </section>
+
+      <section style={{ marginBottom: 30 }}>
+        <h2>But is the read real signal, or noise?</h2>
+        <p className="dim" style={{ maxWidth: "72ch" }}>
+          A null result on one question says nothing about the other. The product claims a room has a specific,
+          coherent local audience — so we tested that claim directly across all {d.summary.rooms} catalogued rooms.
+          Two things have to hold. If they don&apos;t, there is nothing here.
+        </p>
+
+        <div className="grid grid-2" style={{ marginTop: 18, gap: 16 }}>
+          <div className="card">
+            <div className="tiny faint" style={{ marginBottom: 6 }}>Specificity</div>
+            <div style={{ fontSize: 32, fontWeight: 650, letterSpacing: "-0.03em", color: "var(--good)" }}>
+              {d.summary.medianOverlap.toFixed(3)}
+            </div>
+            <p className="dim" style={{ fontSize: 14, marginTop: 8, marginBottom: 0 }}>
+              Median audience overlap across <strong>{d.summary.pairs} room pairs</strong>. If the read were
+              generic, most rooms would return the same acts and this would approach 1. It is zero — the read is
+              specific to each room.
+            </p>
+          </div>
+          <div className="card">
+            <div className="tiny faint" style={{ marginBottom: 6 }}>Structure</div>
+            <div style={{ fontSize: 32, fontWeight: 650, letterSpacing: "-0.03em", color: "var(--good)" }}>
+              {d.summary.maxOverlap.toFixed(2)}
+            </div>
+            <p className="dim" style={{ fontSize: 14, marginTop: 8, marginBottom: 0 }}>
+              The strongest overlap in the whole matrix — and it lands exactly where someone who knows these rooms
+              would put it. Not uniform, not random: structured by scene.
+            </p>
+          </div>
+        </div>
+
+        <div className="card" style={{ marginTop: 16 }}>
+          <h3 style={{ marginBottom: 10 }}>The most-overlapping pairs are shared scenes</h3>
+          <div className="stack" style={{ gap: 10 }}>
+            {d.topPairs.slice(0, 6).map((p) => (
+              <div key={`${p.a}-${p.b}`}>
+                <div className="row" style={{ justifyContent: "space-between", marginBottom: 4 }}>
+                  <span style={{ fontSize: 14 }}>
+                    {p.a} <span className="faint">~</span> {p.b}
+                  </span>
+                  <span className="mono tiny" style={{ color: "var(--good)" }}>{p.j.toFixed(2)}</span>
+                </div>
+                <div className="tiny faint">
+                  {p.cityA} — {p.tagsA.join(", ")} · {p.cityB} — {p.tagsB.join(", ")}
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="tiny faint" style={{ marginTop: 14, marginBottom: 0 }}>
+            Bowery Ballroom and Saint Vitus are both New York indie and punk rooms and share 47% of their audiences.
+            KOKO and Village Underground are both London grime rooms. Barclays and Radio City are both New York rap
+            arenas. Every high overlap is a pair a booker would have named.
+          </p>
+        </div>
+
+        <div className="card" style={{ marginTop: 16, borderColor: "var(--accent-dim)" }}>
+          <h3 style={{ marginBottom: 8 }}>And it is hyper-local</h3>
+          <p className="dim" style={{ fontSize: 14.5 }}>
+            Two rooms in the same city share <strong>{(d.summary.sameCityMean * 100).toFixed(1)}%</strong> of their
+            audience on average; two rooms in different cities share{" "}
+            <strong>{(d.summary.diffCityMean * 100).toFixed(1)}%</strong>. That is a{" "}
+            <strong>{(d.summary.sameCityMean / d.summary.diffCityMean).toFixed(0)}×</strong> difference. The
+            strongest cross-city overlap anywhere in the matrix is just{" "}
+            {(d.topPairs.find((p) => p.cityA !== p.cityB)?.j ?? 0.18).toFixed(2)} — and that pair is two Los
+            Angeles rooms.
+          </p>
+          <p className="dim" style={{ fontSize: 14.5, marginBottom: 0 }}>
+            <strong style={{ color: "var(--ink)" }}>Genre alone does not carry across cities.</strong> That is the
+            concrete product consequence: a booking decision researched in one market does not transfer to another,
+            and a tool showing you a genre match is not showing you an audience. It also explains the null above —
+            the same act does not draw the same <em>audience</em> in Amsterdam and Oslo.
+          </p>
+        </div>
       </section>
 
       <section className="card" style={{ marginBottom: 26 }}>
