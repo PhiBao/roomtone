@@ -200,14 +200,14 @@ export async function ask(question: string): Promise<DeskAnswer> {
   const roomTop = profile.acts.slice(0, 5).map((a) => a.name);
 
   detail.push(
-    `${room.name} draws ${room.neighborhood ? `${room.neighborhood}, ` : ""}${room.city}. Its closest ${profile.totalActs} acts are ${roomTop.join(", ")}.`,
+    `${room.name} — ${room.neighborhood ? `${room.neighborhood}, ` : ""}${room.city}. The acts closest to its local crowd are ${roomTop.join(", ")}.`,
   );
 
   const audienceTags = profile.tasteTags.filter((t) => t.type.includes("audience")).slice(0, 6);
   const genreTags = profile.tasteTags.filter((t) => t.type.includes("genre")).slice(0, 6);
   if (audienceTags.length || genreTags.length) {
     detail.push(
-      `Across that crowd the dominant taste is ${[...genreTags, ...audienceTags].slice(0, 8).map((t) => t.name).join(", ")}.`,
+      `Across that local crowd the dominant taste is ${[...genreTags, ...audienceTags].slice(0, 8).map((t) => t.name).join(", ")}.`,
     );
   }
 
@@ -268,7 +268,7 @@ export async function ask(question: string): Promise<DeskAnswer> {
       ...profile.acts.slice(0, 5).map((a) => ({ name: a.name, why: `#${a.rank} of the acts closest to ${room.name}'s crowd` })),
     );
     detail.push(
-      `That is not a verdict on ${act.name} — it's a verdict on ${room.name}. Acts whose audiences do sit in this room include ${profile.acts.slice(0, 5).map((a) => a.name).join(", ")}.`,
+      `${act.name} and ${room.name} sit in different taste space. That is a statement about audience, not about sales — draw is a separate question, and ranking by popularity answers it (see the benchmark). Acts whose audiences do sit in this room include ${profile.acts.slice(0, 5).map((a) => a.name).join(", ")}.`,
     );
   }
 

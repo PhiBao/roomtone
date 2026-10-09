@@ -31,9 +31,24 @@ export function RoomCard({ room, acts, note }: { room: Room; acts?: RoomAct[]; n
   );
 }
 
-export function ActList({ acts, limit = 12, showAffinity = true }: { acts: RoomAct[]; limit?: number; showAffinity?: boolean }) {
+export function ActList({
+  acts,
+  limit = 12,
+  showAffinity = true,
+}: {
+  acts: RoomAct[];
+  limit?: number;
+  showAffinity?: boolean;
+}) {
   return (
     <ul className="act-list">
+      <li className="act-row" style={{ borderBottom: "none", opacity: 0.55 }}>
+        <span className="tiny faint">#</span>
+        <span className="tiny faint">Act · taste</span>
+        <span className="tiny faint" style={{ textAlign: "right" }}>
+          fit · draw
+        </span>
+      </li>
       {acts.slice(0, limit).map((a) => (
         <li className="act-row" key={a.entity_id}>
           <span className="act-rank">{a.rank}</span>
@@ -41,7 +56,13 @@ export function ActList({ acts, limit = 12, showAffinity = true }: { acts: RoomA
             <span className="act-name">{a.name}</span>
             {a.genres.length > 0 ? <div className="act-sub">{a.genres.slice(0, 3).join(" · ")}</div> : null}
           </span>
-          {showAffinity ? <span className="act-aff">{a.affinity.toFixed(3)}</span> : <span />}
+          {showAffinity ? (
+            <span className="act-aff" title="taste fit to this room · Qloo popularity percentile">
+              {a.affinity.toFixed(3)} · {a.popularity.toFixed(2)}
+            </span>
+          ) : (
+            <span />
+          )}
         </li>
       ))}
     </ul>

@@ -14,16 +14,24 @@ export default function Home() {
           <span className="dim">Almost nobody can tell you what it is.</span>
         </h1>
         <p className="lede">
-          A promoter commits a guarantee on a feeling — usually their own. Roomtone reads a venue or a
-          neighbourhood as a <em>taste object</em> using Qloo&apos;s cultural graph, then tells you whether the
-          act you are considering belongs in that room, who else does, and how far off you would be.
+          A promoter commits a guarantee on a feeling — usually their own. Roomtone reads a venue as a{" "}
+          <em>taste object</em> using Qloo&apos;s cultural graph: who the room&apos;s local audience actually is, what
+          they listen to, which acts belong to them, and which brands already reach them.
+        </p>
+        <p className="lede" style={{ fontSize: 16 }}>
+          <strong style={{ color: "var(--ink)" }}>What it does not do</strong> — and we tested it: Roomtone does not
+          predict draw. Qloo describes a room&apos;s local audience, not the touring acts that fill it. The{" "}
+          <Link href="/benchmark" style={{ color: "var(--accent)" }}>
+            benchmark
+          </Link>{" "}
+          that found that out is on the site, with the result that produced it.
         </p>
         <div className="row" style={{ marginTop: 24 }}>
           <Link href="/two-rooms" className="btn btn-primary">
             See it in one click
           </Link>
           <Link href="/read" className="btn">
-            Read a booking
+            Read a room
           </Link>
         </div>
       </section>

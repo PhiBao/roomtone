@@ -19,7 +19,8 @@ export default function MethodPage() {
         <h2>What is measured</h2>
         <p className="dim">
           For a room <em>R</em> we ask Qloo for the 50 acts whose audiences sit closest to{" "}
-          <em>R</em>&apos;s own crowd. That list is the room&apos;s audience, expressed as names.
+          <em>R</em>&apos;s own crowd. That list is the room&apos;s <strong>local audience</strong>, expressed as
+          names. This is a read of taste, not of draw — the benchmark page states the distinction with its evidence.
         </p>
         <p className="dim">
           For an act <em>A</em> and a room <em>R</em>, Roomtone reports where <em>A</em> falls inside{" "}
@@ -37,8 +38,14 @@ export default function MethodPage() {
         <h2>What is not measured</h2>
         <ul className="dim" style={{ lineHeight: 1.75, paddingLeft: 20, marginBottom: 0 }}>
           <li>
-            <strong>Not ticket sales.</strong> No capacity model, no pricing, no guarantee maths. Qloo has no
-            box-office data and neither do we.
+            <strong>Not draw, and not ticket sales.</strong> Qloo&apos;s room affinity describes a venue&apos;s
+            local audience; it does not predict which touring acts will fill it. Tested against 149 documented
+            plays: zero appeared in their venue&apos;s top 50, and ranking by popularity scored 0.995 on the same
+            question. See the{" "}
+            <a href="/benchmark" className="mono" style={{ color: "var(--ink)" }}>
+              benchmark
+            </a>
+            .
           </li>
           <li>
             <strong>Not an individual.</strong> Qloo affinities describe aggregate cultural co-occurrence.

@@ -1,0 +1,1872 @@
+{
+ "summary": {
+  "venues": 29,
+  "documentedShows": 149,
+  "measuredActs": 145,
+  "meanAucRoomtone": 0,
+  "meanAucPopularity": 0.9949228243021345,
+  "roomtoneWins": 0,
+  "totalDocs": 34,
+  "generatedAt": "2026-10-09T18:01:32.489Z",
+  "inTopFifty": 0,
+  "cities": 23
+ },
+ "results": [
+  {
+   "venue": "Rogers Arena",
+   "city": "Vancouver",
+   "genre": "Arena",
+   "entityId": "9ACED680-DBE7-4E49-BC92-D95B971B5CAC",
+   "measured": 13,
+   "documented": 14,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.8559512371191814,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.8416035356106808,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8312799377964825,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Childish Gambino",
+     "name": "Childish Gambino",
+     "id": "C040E149-2449-4BBE-98BF-2FAF1584D19F",
+     "affinity": 0.8723904867894962,
+     "popularity": 0.9988760657714514,
+     "observed": true
+    },
+    {
+     "artist": "Drake",
+     "name": "Drake&Orson",
+     "id": "FAA55DC8-6030-4CC8-9BA6-4668295C3FA7",
+     "affinity": 0.8509873980477152,
+     "popularity": 0.999439671273814,
+     "observed": true
+    },
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.8457904755102273,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Halsey",
+     "name": "Halsey",
+     "id": "488C7F63-9D38-49A2-9544-51A802B4FE35",
+     "affinity": 0.8893701705429234,
+     "popularity": 0.997391686163485,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.8187777876214665,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.8364854140014926,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.8256108358257024,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "SZA",
+     "name": "SZA",
+     "id": "E2E58680-EE3F-4D1D-88B6-B79F87205B2C",
+     "affinity": 0.8023003028822017,
+     "popularity": 0.9970017497984782,
+     "observed": true
+    },
+    {
+     "artist": "Shawn Mendes",
+     "name": "Shawn Mendes",
+     "id": "A017F475-9F52-4884-AD5C-FDD7912A2A71",
+     "affinity": 0.8695925150415101,
+     "popularity": 0.9969001697370059,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.878610648552288,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9299252356095993,
+   "nPos": 13,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Jai Wolf",
+    "Louis the Child",
+    "San Holo",
+    "ILLENIUM",
+    "Whethan",
+    "Just a Gent"
+   ]
+  },
+  {
+   "venue": "Ziggo Dome",
+   "city": "Amsterdam",
+   "genre": "Event venue",
+   "entityId": "B6651E74-943D-4A0D-8D10-EA15D01F3410",
+   "measured": 12,
+   "documented": 13,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.7979061157808214,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.7583976568249786,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8114029132668243,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.7862209429930281,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.8454240738450094,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.7992885594385607,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.8063939492933656,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.7694863936534622,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "Mumford & Sons",
+     "name": "Mumford & Sons",
+     "id": "E87364AC-606D-4D3A-AF07-724069605EDC",
+     "affinity": 0.8122931090568112,
+     "popularity": 0.9996559385014647,
+     "observed": true
+    },
+    {
+     "artist": "SZA",
+     "name": "SZA",
+     "id": "E2E58680-EE3F-4D1D-88B6-B79F87205B2C",
+     "affinity": 0.7573793507019942,
+     "popularity": 0.9970017497984782,
+     "observed": true
+    },
+    {
+     "artist": "Shawn Mendes",
+     "name": "Shawn Mendes",
+     "id": "A017F475-9F52-4884-AD5C-FDD7912A2A71",
+     "affinity": 0.8246770928721536,
+     "popularity": 0.9969001697370059,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.7904243437336701,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9584161248974402,
+   "nPos": 12,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Gers Pardoel",
+    "Guus Meeuwis",
+    "Nielson",
+    "Marco Borsato",
+    "Kraantje Pappie",
+    "Bl\u00f8f"
+   ]
+  },
+  {
+   "venue": "Spark Arena",
+   "city": "Auckland",
+   "genre": "Arena",
+   "entityId": "4560B31F-FC1C-4920-AF54-773C48222CCE",
+   "measured": 11,
+   "documented": 11,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.8596198544671344,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.8818156184099596,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8232678463492016,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.8730246898442446,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Halsey",
+     "name": "Halsey",
+     "id": "488C7F63-9D38-49A2-9544-51A802B4FE35",
+     "affinity": 0.886360260884714,
+     "popularity": 0.997391686163485,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.8792096496210251,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.8702061583765115,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "SZA",
+     "name": "SZA",
+     "id": "E2E58680-EE3F-4D1D-88B6-B79F87205B2C",
+     "affinity": 0.8693695331261738,
+     "popularity": 0.9970017497984782,
+     "observed": true
+    },
+    {
+     "artist": "Shawn Mendes",
+     "name": "Shawn Mendes",
+     "id": "A017F475-9F52-4884-AD5C-FDD7912A2A71",
+     "affinity": 0.8597546305903291,
+     "popularity": 0.9969001697370059,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.8840261712022061,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    },
+    {
+     "artist": "Tyler, the Creator",
+     "name": "Tyler, the Creator",
+     "id": "375758AA-B0FA-4508-8EC1-D7FBFE3A4B3C",
+     "affinity": 0.8505272503879384,
+     "popularity": 0.9989153870855697,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9319368174687609,
+   "nPos": 11,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Cub Sport",
+    "Meg Mac",
+    "Ocean Alley",
+    "Winston Surfshirt",
+    "Lime Cordiale",
+    "Amy Shark"
+   ]
+  },
+  {
+   "venue": "Palau Sant Jordi",
+   "city": "Barcelona",
+   "genre": "Sports complex",
+   "entityId": "5B9B07C7-FF6A-4A90-A669-7F5E9A96498C",
+   "measured": 8,
+   "documented": 9,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.7771012202769035,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.7935654050638975,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.7797723958778529,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.7730830900172002,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.791125856674474,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Lana Del Rey",
+     "name": "Lana Del Rey",
+     "id": "63BBE4D8-D721-466F-907C-D0007E9B6665",
+     "affinity": 0.7674953284370982,
+     "popularity": 0.9998590986244094,
+     "observed": true
+    },
+    {
+     "artist": "Mumford & Sons",
+     "name": "Mumford & Sons",
+     "id": "E87364AC-606D-4D3A-AF07-724069605EDC",
+     "affinity": 0.7690081932753613,
+     "popularity": 0.9996559385014647,
+     "observed": true
+    },
+    {
+     "artist": "Shawn Mendes",
+     "name": "Shawn Mendes",
+     "id": "A017F475-9F52-4884-AD5C-FDD7912A2A71",
+     "affinity": 0.7949353466655869,
+     "popularity": 0.9969001697370059,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9421819735189896,
+   "nPos": 8,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Melendi",
+    "Sidecars",
+    "Dani Mart\u00edn",
+    "Miss Caffeina",
+    "Zahara",
+    "Izal"
+   ]
+  },
+  {
+   "venue": "Royal Arena",
+   "city": "Copenhagen Municipality",
+   "genre": "Arena",
+   "entityId": "3E903FDB-78F8-4EDA-BB7D-69E76B40AE20",
+   "measured": 7,
+   "documented": 7,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.8359923076326741,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8510352918869419,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.802578240533728,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.8412026499274267,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.7787536627090738,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "Mumford & Sons",
+     "name": "Mumford & Sons",
+     "id": "E87364AC-606D-4D3A-AF07-724069605EDC",
+     "affinity": 0.7872611536675792,
+     "popularity": 0.9996559385014647,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.8111679582584517,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9494531022965698,
+   "nPos": 7,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Rasmus Seebach",
+    "Burhan G",
+    "Niklas",
+    "Rasmus Thude",
+    "Joey Moe",
+    "Ankerstjerne"
+   ]
+  },
+  {
+   "venue": "Scotiabank Arena",
+   "city": "Toronto",
+   "genre": "Arena",
+   "entityId": "A358FF23-4DBF-4FE9-8364-12802CFCD0FA",
+   "measured": 7,
+   "documented": 7,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.89266170218943,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.866060927395944,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Childish Gambino",
+     "name": "Childish Gambino",
+     "id": "C040E149-2449-4BBE-98BF-2FAF1584D19F",
+     "affinity": 0.9252401432052666,
+     "popularity": 0.9988760657714514,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.903289636082756,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.9063893522450698,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "Mumford & Sons",
+     "name": "Mumford & Sons",
+     "id": "E87364AC-606D-4D3A-AF07-724069605EDC",
+     "affinity": 0.7521259534367756,
+     "popularity": 0.9996559385014647,
+     "observed": true
+    },
+    {
+     "artist": "SZA",
+     "name": "SZA",
+     "id": "E2E58680-EE3F-4D1D-88B6-B79F87205B2C",
+     "affinity": 0.9088384952515609,
+     "popularity": 0.9970017497984782,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 0.9914285714285714,
+   "poolMin": 0.936100960605767,
+   "nPos": 7,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Ella Mai",
+    "PARTYNEXTDOOR",
+    "Jhen\u00e9 Aiko",
+    "TWENTY88",
+    "Bryson Tiller",
+    "K. Roosevelt"
+   ]
+  },
+  {
+   "venue": "AFAS Live",
+   "city": "Amsterdam",
+   "genre": "Concert hall",
+   "entityId": "AFC4C58C-6A4F-457C-A449-8A4BAD0E4BCA",
+   "measured": 5,
+   "documented": 5,
+   "acts": [
+    {
+     "artist": "Halsey",
+     "name": "Halsey",
+     "id": "488C7F63-9D38-49A2-9544-51A802B4FE35",
+     "affinity": 0.7746010774604881,
+     "popularity": 0.997391686163485,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.8057378744974403,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "Lorde",
+     "name": "Lorde",
+     "id": "A37B17AE-15C7-48A3-AADD-6CE50BE3FF74",
+     "affinity": 0.7592656865449636,
+     "popularity": 0.9994495016023436,
+     "observed": true
+    },
+    {
+     "artist": "Olivia Rodrigo",
+     "name": "Olivia Rodrigo",
+     "id": "087EF30C-3367-49B8-AC58-8B8C01D69DB6",
+     "affinity": 0.7748678087659714,
+     "popularity": 0.9966085366572951,
+     "observed": true
+    },
+    {
+     "artist": "Tyler, the Creator",
+     "name": "Tyler, the Creator",
+     "id": "375758AA-B0FA-4508-8EC1-D7FBFE3A4B3C",
+     "affinity": 0.7628842562389239,
+     "popularity": 0.9989153870855697,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9582951295652181,
+   "nPos": 5,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Nielson",
+    "Gers Pardoel",
+    "Bl\u00f8f",
+    "Marco Borsato",
+    "Kraantje Pappie",
+    "Guus Meeuwis"
+   ]
+  },
+  {
+   "venue": "TD Garden",
+   "city": "Boston",
+   "genre": "Arena",
+   "entityId": "8DBFAB88-70F1-4E78-8852-BB275068DAFA",
+   "measured": 5,
+   "documented": 5,
+   "acts": [
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8240743891463942,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Childish Gambino",
+     "name": "Childish Gambino",
+     "id": "C040E149-2449-4BBE-98BF-2FAF1584D19F",
+     "affinity": 0.832236952206693,
+     "popularity": 0.9988760657714514,
+     "observed": true
+    },
+    {
+     "artist": "Halsey",
+     "name": "Halsey",
+     "id": "488C7F63-9D38-49A2-9544-51A802B4FE35",
+     "affinity": 0.7871649095605573,
+     "popularity": 0.997391686163485,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.7949206308406291,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.8291997876950112,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.8869272876293967,
+   "nPos": 5,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Meno Tody",
+    "Bonde da Stronda",
+    "Black Days",
+    "Tuba\u00edna",
+    "emo.",
+    "Kiara Rocks"
+   ]
+  },
+  {
+   "venue": "Accor Arena",
+   "city": "Paris",
+   "genre": "Live music venue",
+   "entityId": "5DDC9AD4-6E25-4921-8B4E-50262D47B23C",
+   "measured": 5,
+   "documented": 5,
+   "acts": [
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.8253727279863239,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.8342647384130695,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.8409767121031914,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.8039696544589793,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "SZA",
+     "name": "SZA",
+     "id": "E2E58680-EE3F-4D1D-88B6-B79F87205B2C",
+     "affinity": 0.8209353745931632,
+     "popularity": 0.9970017497984782,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9056739412182472,
+   "nPos": 5,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "NikitA",
+    "\u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0412\u043e\u0440\u043e\u0431\u044c\u0451\u0432",
+    "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u041b\u043e\u0431\u043e\u0434\u0430",
+    "\u0421\u0435\u0440\u0433\u0435\u0439 \u041b\u0430\u0437\u0430\u0440\u0435\u0432",
+    "\u041c\u0430\u044f\u043a\u043e\u0432\u0441\u043a\u0438\u0439",
+    "\u041f\u043e\u043b\u0438\u043d\u0430 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430"
+   ]
+  },
+  {
+   "venue": "Lanxess Arena",
+   "city": "Cologne",
+   "genre": "Arena",
+   "entityId": "B7818310-8C0D-4418-BCBE-39A1E0863284",
+   "measured": 5,
+   "documented": 5,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.766197141331751,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.804925719280056,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.7800297640842482,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.7381415423948366,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.7640360506475933,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 0.968,
+   "poolMin": 0.9575026394980218,
+   "nPos": 5,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Fettes Brot",
+    "Sido",
+    "Clueso",
+    "SDP",
+    "Silbermond",
+    "Peter Fox"
+   ]
+  },
+  {
+   "venue": "MEO Arena",
+   "city": "Lisbon",
+   "genre": "Arena",
+   "entityId": "6EA65069-A29A-4BBF-9B03-353307FB4053",
+   "measured": 4,
+   "documented": 5,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.8194162696765128,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8195388920586966,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.8031311332814703,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Shawn Mendes",
+     "name": "Shawn Mendes",
+     "id": "A017F475-9F52-4884-AD5C-FDD7912A2A71",
+     "affinity": 0.813308104891735,
+     "popularity": 0.9969001697370059,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.8957941247030944,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Aurea",
+    "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u041b\u043e\u0431\u043e\u0434\u0430",
+    "Anjos",
+    "Jamala",
+    "KAZAKY",
+    "Rita Guerra"
+   ]
+  },
+  {
+   "venue": "Principality Stadium",
+   "city": "Cardiff",
+   "genre": "Stadium",
+   "entityId": "F12772EC-7697-44F5-98FD-CB41C34D65ED",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.8556243942639368,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.8862150264407399,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.8321771391694875,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Taylor Swift",
+     "name": "Taylor Swift",
+     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+     "affinity": 0.8388662333123115,
+     "popularity": 0.9997870095485257,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9201129711452362,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Tom Grennan",
+    "Circa Waves",
+    "Sam Fender",
+    "The Sherlocks",
+    "Picture This",
+    "Blossoms"
+   ]
+  },
+  {
+   "venue": "PGE Narodowy",
+   "city": "Warsaw",
+   "genre": "Stadium",
+   "entityId": "D29B3E5B-9548-4E64-9956-AAC2B64BC5B4",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.764517407027462,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.7997942410807553,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "Taylor Swift",
+     "name": "Taylor Swift",
+     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+     "affinity": 0.7645224095173278,
+     "popularity": 0.9997870095485257,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.7695194814903895,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9600834184003625,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Kamil Bednarek",
+    "Mrozu",
+    "Paktofonika",
+    "O.S.T.R.",
+    "Agnieszka Chyli\u0144ska",
+    "Pezet"
+   ]
+  },
+  {
+   "venue": "Rogers Centre",
+   "city": "Toronto",
+   "genre": "Stadium",
+   "entityId": "0C4BB255-4A08-4AAA-94B3-17622CCD7F97",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.8918146373276076,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.9054227582032367,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "Taylor Swift",
+     "name": "Taylor Swift",
+     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+     "affinity": 0.8577866142179712,
+     "popularity": 0.9997870095485257,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.9145918150592177,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9287188721279396,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Jon Bellion",
+    "Bryce Vine",
+    "Quinn XCII",
+    "blackbear",
+    "G-Eazy",
+    "Kyle"
+   ]
+  },
+  {
+   "venue": "Stade de France",
+   "city": "Saint-Denis",
+   "genre": "Stadium",
+   "entityId": "A3FF9358-FD4F-4ACB-BEFB-C18ECF04F1B6",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8060342597934144,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.7533935326067691,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.8038676306851541,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.799789745831069,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9390368694622242,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "\u041c\u0430\u043a\u0441 \u0411\u0430\u0440\u0441\u043a\u0438\u0445",
+    "SEREBRO",
+    "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u041b\u043e\u0431\u043e\u0434\u0430",
+    "NikitA",
+    "\u041f\u043e\u043b\u0438\u043d\u0430 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+    "Alyosha"
+   ]
+  },
+  {
+   "venue": "National Stadium Bukit Jalil",
+   "city": "Kuala Lumpur",
+   "genre": "Stadium",
+   "entityId": "848CE915-392E-4C51-8C8D-5D38FB4D4686",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.7685273390740897,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.7752952524830985,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.8403772942417299,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.8104206455835644,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.955229594723376,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Sick Individuals",
+    "Thomas Gold",
+    "Nicky Romero",
+    "Lush & Simon",
+    "Borgeous",
+    "Hardwell"
+   ]
+  },
+  {
+   "venue": "Oslo Spektrum",
+   "city": "Oslo",
+   "genre": "Arena",
+   "entityId": "B48C2CEE-9B5C-498A-BD6F-5A0B98DE3259",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.8415151040749669,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.8177691227189223,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    },
+    {
+     "artist": "Mumford & Sons",
+     "name": "Mumford & Sons",
+     "id": "E87364AC-606D-4D3A-AF07-724069605EDC",
+     "affinity": 0.828187442115071,
+     "popularity": 0.9996559385014647,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.8450005201291685,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9424296200681933,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Emilie Nicolas",
+    "Julie Bergan",
+    "Elsa & Emilie",
+    "Ask Embla",
+    "Highasakite",
+    "Christel Alsos"
+   ]
+  },
+  {
+   "venue": "AO Arena",
+   "city": "Manchester",
+   "genre": "Arena",
+   "entityId": "57A212B7-2F39-4DA8-92CB-49E64F985957",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.8510003526173487,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.8601102542264506,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Justin Bieber",
+     "name": "Justin Bieber",
+     "id": "89C2B9FB-4C5E-4676-8DDB-9FEB7E0FCDE6",
+     "affinity": 0.865526001356909,
+     "popularity": 0.9990857794467491,
+     "observed": true
+    },
+    {
+     "artist": "SZA",
+     "name": "SZA",
+     "id": "E2E58680-EE3F-4D1D-88B6-B79F87205B2C",
+     "affinity": 0.836727031207734,
+     "popularity": 0.9970017497984782,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9260198946725846,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Sneakbo",
+    "Stormzy",
+    "Wretch 32",
+    "Bugzy Malone",
+    "AJ Tracey",
+    "Lethal Bizzle"
+   ]
+  },
+  {
+   "venue": "Brisbane Entertainment Centre.",
+   "city": "Brisbane",
+   "genre": "Concert hall",
+   "entityId": "92C5C31E-EB99-481E-9351-5E6F0E7C0362",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.8214882187474701,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Mumford & Sons",
+     "name": "Mumford & Sons",
+     "id": "E87364AC-606D-4D3A-AF07-724069605EDC",
+     "affinity": 0.8164360243575165,
+     "popularity": 0.9996559385014647,
+     "observed": true
+    },
+    {
+     "artist": "SZA",
+     "name": "SZA",
+     "id": "E2E58680-EE3F-4D1D-88B6-B79F87205B2C",
+     "affinity": 0.7822933112647917,
+     "popularity": 0.9970017497984782,
+     "observed": true
+    },
+    {
+     "artist": "Shawn Mendes",
+     "name": "Shawn Mendes",
+     "id": "A017F475-9F52-4884-AD5C-FDD7912A2A71",
+     "affinity": 0.8339905664436287,
+     "popularity": 0.9969001697370059,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9353607273458279,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Meg Mac",
+    "Amy Shark",
+    "Thelma Plum",
+    "Thundamentals",
+    "Tigertown",
+    "Allday"
+   ]
+  },
+  {
+   "venue": "AO Arena",
+   "city": "Manchester",
+   "genre": "Arena",
+   "entityId": "57A212B7-2F39-4DA8-92CB-49E64F985957",
+   "measured": 4,
+   "documented": 4,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.8328205080819058,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.835517058277144,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Shawn Mendes",
+     "name": "Shawn Mendes",
+     "id": "A017F475-9F52-4884-AD5C-FDD7912A2A71",
+     "affinity": 0.8409813299291561,
+     "popularity": 0.9969001697370059,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.871340213866925,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9260198946725846,
+   "nPos": 4,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Sneakbo",
+    "Stormzy",
+    "Wretch 32",
+    "Bugzy Malone",
+    "AJ Tracey",
+    "Lethal Bizzle"
+   ]
+  },
+  {
+   "venue": "Wembley Stadium",
+   "city": "London",
+   "genre": "Stadium",
+   "entityId": "2224AC5B-9AD7-4916-8F6E-7CBD0C9D4B03",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.741677088354735,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Taylor Swift",
+     "name": "Taylor Swift",
+     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+     "affinity": 0.804869436846116,
+     "popularity": 0.9997870095485257,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.8211765939237947,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9426435970757077,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "SEREBRO",
+    "\u041c\u0430\u043a\u0441 \u0411\u0430\u0440\u0441\u043a\u0438\u0445",
+    "\u0421\u0435\u0440\u0433\u0435\u0439 \u041b\u0430\u0437\u0430\u0440\u0435\u0432",
+    "\u041f\u043e\u043b\u0438\u043d\u0430 \u0413\u0430\u0433\u0430\u0440\u0438\u043d\u0430",
+    "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u041b\u043e\u0431\u043e\u0434\u0430",
+    "\u0410\u043d\u0456 \u041b\u043e\u0440\u0430\u043a"
+   ]
+  },
+  {
+   "venue": "Johan Cruijff Arena",
+   "city": "Amsterdam",
+   "genre": "Stadium",
+   "entityId": "52639E1C-32B2-48F9-9FC2-8E1FD5C576C6",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.7650112614635398,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Taylor Swift",
+     "name": "Taylor Swift",
+     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+     "affinity": 0.7995969158610803,
+     "popularity": 0.9997870095485257,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.7983416038713865,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9591150999062495,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Nielson",
+    "Gers Pardoel",
+    "Bl\u00f8f",
+    "Marco Borsato",
+    "Guus Meeuwis",
+    "Kraantje Pappie"
+   ]
+  },
+  {
+   "venue": "Etihad Stadium",
+   "city": "Manchester",
+   "genre": "Stadium",
+   "entityId": "FF8F49C9-E933-46AB-9A00-4BF243036DC4",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.8773528569405412,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.8300986789138984,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.7870153333392658,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9366611066444712,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "The Courteeners",
+    "Reverend and the Makers",
+    "Ocean Colour Scene",
+    "Ian Brown",
+    "The Enemy",
+    "The Seahorses"
+   ]
+  },
+  {
+   "venue": "BC Place",
+   "city": "Vancouver",
+   "genre": "Stadium",
+   "entityId": "125A0C9F-10D8-4795-AF61-DD18A8CF2FD8",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Coldplay",
+     "name": "Coldplay",
+     "id": "B6FA456F-B729-4700-B01F-E82AD3AC8ADA",
+     "affinity": 0.7289057613200582,
+     "popularity": 1,
+     "observed": true
+    },
+    {
+     "artist": "Mumford & Sons",
+     "name": "Mumford & Sons",
+     "id": "E87364AC-606D-4D3A-AF07-724069605EDC",
+     "affinity": 0.7254865917488896,
+     "popularity": 0.9996559385014647,
+     "observed": true
+    },
+    {
+     "artist": "The Weeknd",
+     "name": "The Weeknd",
+     "id": "A9C3CE3F-9A0C-47B3-8AF8-E75B252F86D8",
+     "affinity": 0.9040080015778977,
+     "popularity": 0.9995248674544036,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.934026513395247,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "French Montana",
+    "Ty Dolla $ign",
+    "PARTYNEXTDOOR",
+    "Mike Will Made-It",
+    "Sy Ari da Kid",
+    "Meek Mill"
+   ]
+  },
+  {
+   "venue": "Movistar Arena",
+   "city": "Santiago",
+   "genre": "Concert hall",
+   "entityId": "A6EF9B15-BFC0-4DD1-A076-8712DCA0D4B4",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.7503274465182955,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.7548133974783259,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.7497552256917385,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9449672434514415,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Los Prisioneros",
+    "Glup!",
+    "Los Bunkers",
+    "Los Tres",
+    "Gepe",
+    "Babas\u00f3nicos"
+   ]
+  },
+  {
+   "venue": "Palacio de los Deportes",
+   "city": "Mexico City",
+   "genre": "Live music venue",
+   "entityId": "7EFC0E6C-1349-416A-BCA2-709301D1B8FD",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Ariana Grande",
+     "name": "Ariana Grande",
+     "id": "EEE15A04-1AB1-43EA-945E-B93EA6DD920A",
+     "affinity": 0.8075570221372983,
+     "popularity": 0.9993118770029294,
+     "observed": true
+    },
+    {
+     "artist": "Ed Sheeran",
+     "name": "Ed Sheeran",
+     "id": "058B79A3-49F5-4927-9AB6-DE713C706796",
+     "affinity": 0.7958126502866418,
+     "popularity": 0.9996723223823474,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.8201820853602592,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.946055116335574,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "DLD",
+    "Siddhartha",
+    "Ximena Sari\u00f1ana",
+    "Zo\u00e9",
+    "Chetes",
+    "Moderatto"
+   ]
+  },
+  {
+   "venue": "SM Mall of Asia Arena",
+   "city": "Pasay",
+   "genre": "Arena",
+   "entityId": "3ECD6DD6-3B53-41E1-8CDF-DB0CA04D1F70",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.822560596733811,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8514764775910783,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Harry Styles",
+     "name": "Harry Styles",
+     "id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+     "affinity": 0.8176236817918653,
+     "popularity": 0.9975620785246643,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 1,
+   "poolMin": 0.9614499422380679,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "EXO-K",
+    "SUPER JUNIOR",
+    "NU'EST",
+    "Beast",
+    "Infinite",
+    "SHINee"
+   ]
+  },
+  {
+   "venue": "Climate Pledge Arena",
+   "city": "Seattle",
+   "genre": "Arena",
+   "entityId": "77C20682-9036-4B8D-AEBC-F4B4C4F4D7CC",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Billie Eilish",
+     "name": "Billie Eilish",
+     "id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+     "affinity": 0.7817359758880773,
+     "popularity": 0.9985942630202701,
+     "observed": true
+    },
+    {
+     "artist": "Lizzo",
+     "name": "Lizzo",
+     "id": "2D1676A1-EC6D-482C-A778-4B2BAAD2D92E",
+     "affinity": 0.7812067134712944,
+     "popularity": 0.9938167233548946,
+     "observed": true
+    },
+    {
+     "artist": "Tyler, the Creator",
+     "name": "Tyler, the Creator",
+     "id": "375758AA-B0FA-4508-8EC1-D7FBFE3A4B3C",
+     "affinity": 0.7702048291887434,
+     "popularity": 0.9989153870855697,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 0.9266666666666666,
+   "poolMin": 0.9177610404278622,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Dustin Kensrue",
+    "Rocky Votolato",
+    "Good Old War",
+    "Further Seems Forever",
+    "Kevin Devine",
+    "mewithoutYou"
+   ]
+  },
+  {
+   "venue": "Grant Park",
+   "city": "Chicago",
+   "genre": "City park",
+   "entityId": "AFA46F92-9337-4F9C-9CB7-7F7278116FE1",
+   "measured": 3,
+   "documented": 3,
+   "acts": [
+    {
+     "artist": "Bruno Mars",
+     "name": "Bruno Mars",
+     "id": "A8A71B45-1FF5-475F-8559-581CECF97563",
+     "affinity": 0.8469101830152952,
+     "popularity": 0.9995576352161689,
+     "observed": true
+    },
+    {
+     "artist": "Dua Lipa",
+     "name": "Dua Lipa",
+     "id": "1D792A35-7D72-4D57-88D0-C3A4F3E73EF6",
+     "affinity": 0.9243136236756581,
+     "popularity": 0.9983353977023245,
+     "observed": true
+    },
+    {
+     "artist": "Mitski",
+     "name": "Mitski",
+     "id": "E3BD2650-8E5C-43FB-B5A7-C1C7753A6293",
+     "affinity": 0.9153684728994018,
+     "popularity": 0.9963955462058208,
+     "observed": true
+    }
+   ],
+   "aucRoomtone": 0,
+   "aucPopularity": 0.9666666666666667,
+   "poolMin": 0.93361081996106,
+   "nPos": 3,
+   "nNeg": 50,
+   "inPool": 0,
+   "localTop": [
+    "Megan Thee Stallion",
+    "Saweetie",
+    "Doja Cat",
+    "Lolo Zoua\u00ef",
+    "Audrey Nuna",
+    "Rina Sawayama"
+   ]
+  }
+ ]
+}

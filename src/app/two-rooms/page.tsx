@@ -127,6 +127,10 @@ export default async function TwoRoomsPage({ searchParams }: { searchParams: Pro
             <p style={{ fontSize: 16.5, lineHeight: 1.55, margin: 0, maxWidth: "70ch" }}>
               {summarise(act.name, fits)}
             </p>
+            <p className="tiny faint" style={{ marginTop: 14, marginBottom: 0 }}>
+              A 0th-percentile room is not a statement that sales are impossible — it is a statement that the act
+              and that room&apos;s local audience sit in different taste space. Those are different decisions.
+            </p>
           </section>
 
           <section>

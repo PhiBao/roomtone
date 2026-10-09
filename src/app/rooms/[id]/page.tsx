@@ -89,8 +89,15 @@ export default async function RoomPage({ params }: { params: Promise<{ id: strin
             </div>
             <p className="dim" style={{ maxWidth: "66ch" }}>
               Qloo ranks the {profile.baseline.n} acts whose audiences sit closest to {room.name}&apos;s own
-              crowd. This is the room&apos;s audience, expressed as names rather than segments.
+              local crowd. This is the room&apos;s audience, expressed as names rather than segments — the people
+              who are already there, not the touring acts who fill it on the nights they come through.
             </p>
+            <div className="notice" style={{ marginBottom: 14 }}>
+              Two independent axes, deliberately never combined into one number. <strong>Taste fit</strong> is
+              this list&apos;s ordering. <strong>Draw</strong> is the popularity column. An act can sit at either
+              extreme, and a booking decision needs both — which is why Roomtone shows them separately and never
+              merges them.
+            </div>
             <div className="card">
               <ActList acts={profile.acts} limit={25} />
             </div>

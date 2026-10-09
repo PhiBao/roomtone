@@ -1,0 +1,5660 @@
+[
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "State Farm Stadium",
+  "city": "Glendale"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "BeabadoobeeGayle",
+  "city": "Paradise"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "MunaGayle",
+  "city": "Arlington"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "BeabadoobeeGayle",
+  "city": "Tampa"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Phoebe BridgersGracie Abrams",
+  "city": "Nashville"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Phoebe BridgersGayle",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Phoebe BridgersGayle",
+  "city": "Foxborough"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Phoebe BridgersGayle",
+  "city": "East Rutherford"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Girl in RedOwenn",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Girl in RedGracie Abrams",
+  "city": "Detroit"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Girl in RedGracie Abrams",
+  "city": "Pittsburgh"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Girl in RedGracie Abrams",
+  "city": "Minneapolis"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "MunaGracie Abrams",
+  "city": "Cincinnati"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "MunaGracie Abrams",
+  "city": "Kansas City"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "HaimGracie Abrams",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Foro Sol",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Estadio River Plate",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Tokyo Dome",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Melbourne Cricket Ground",
+  "city": "Melbourne"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Friends Arena",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Groupama Stadium",
+  "city": "D\u00e9cines-Charpieu"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Murrayfield Stadium",
+  "city": "Edinburgh"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Anfield",
+  "city": "Liverpool"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Principality Stadium",
+  "city": "Cardiff"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Wembley Stadium",
+  "city": "London"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Aviva Stadium",
+  "city": "Dublin"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Johan Cruyff Arena",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Letzigrund",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "San Siro",
+  "city": "Milan"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Veltins-Arena",
+  "city": "Gelsenkirchen"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "PGE Narodowy",
+  "city": "Warsaw"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Wembley Stadium",
+  "city": "London"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Hard Rock Stadium",
+  "city": "Miami Gardens"
+ },
+ {
+  "artist": "Taylor Swift",
+  "tour": "The Eras Tour",
+  "venue": "Rogers Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Estadio Nacional de Costa Rica",
+  "city": "San Jos\u00e9"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Estadio BBVA",
+  "city": "Guadalupe"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Cotton Bowl",
+  "city": "Dallas"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Alaina Castillo",
+  "city": "Houston"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Kacy Hill",
+  "city": "Glendale"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Bobby Gonz",
+  "city": "Santa Clara"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Drama",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Shaed",
+  "city": "Landover"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Bea Miller",
+  "city": "East Rutherford"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Lizzy McAlpine",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Mariah the Scientist",
+  "city": "Atlanta"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "H.E.R.Gigi",
+  "city": "Tampa"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Deutsche Bank Park",
+  "city": "Frankfurt"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "PGE Narodowy",
+  "city": "Warsaw"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Olympiastadion",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Stade de France",
+  "city": "Saint-Denis"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "King Baudouin Stadium",
+  "city": "Brussels"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Wembley Stadium",
+  "city": "London"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Hampden Park",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Barra Olympic Park",
+  "city": "Rio de Janeiro"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Estadio Nacional de Chile",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Estadio River Plate",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "ChvrchesClara x Sofia",
+  "city": "Curitiba"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Etihad Stadium",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Principality Stadium",
+  "city": "Cardiff"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Stadio Diego Armando Maradona",
+  "city": "Naples"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "ChvrchesMara Sattei",
+  "city": "Milan"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Letzigrund",
+  "city": "Zurich"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Parken Stadium",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Ullevi",
+  "city": "Gothenburg"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Johan Cruyff Arena",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Lumen Field",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "BC Place",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Snapdragon Stadium",
+  "city": "San Diego"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Tokyo Dome",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Kaohsiung National Stadium",
+  "city": "Kaohsiung"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Gelora Bung Karno Stadium",
+  "city": "Jakarta"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Optus Stadium",
+  "city": "Perth"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Bukit Jalil National Stadium",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Philippine Arena",
+  "city": "Bocaue"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Jasmine SokkoJinan Laetitia",
+  "city": "Singapore"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Rajamangala Stadium",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Olympic Stadium",
+  "city": "Athens"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Groupama Stadium",
+  "city": "D\u00e9cines-Charpieu"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Worthy Farm",
+  "city": "Pilton"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Stadio Olimpico",
+  "city": "Rome"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Merkur Spiel-Arena",
+  "city": "D\u00fcsseldorf"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Helsinki Olympic Stadium",
+  "city": "Helsinki"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Olympiastadion",
+  "city": "Munich"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Ernst-Happel-Stadion",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Croke Park",
+  "city": "Dublin"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Marvel Stadium",
+  "city": "Melbourne"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Eden Park",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Zayed Sports City Stadium",
+  "city": "Abu Dhabi"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "DY Patil Stadium",
+  "city": "Navi Mumbai"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Kai Tak Stadium",
+  "city": "Hong Kong"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Goyang Stadium",
+  "city": "Goyang"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Stanford Stadium",
+  "city": "Stanford"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "WillowElyannaJim Ward",
+  "city": "El Paso"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Rogers Stadium",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Gillette Stadium",
+  "city": "Foxborough"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Ayra StarrElyannaShone",
+  "city": "Madison"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Ayra StarrElyannaBobby Gonz",
+  "city": "Nashville"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Ayra StarrElyannaShone",
+  "city": "Miami Gardens"
+ },
+ {
+  "artist": "Coldplay",
+  "tour": "Music of the Spheres World Tour",
+  "venue": "Craven Park",
+  "city": "Kingston upon Hull"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Pala Alpitour",
+  "city": "Turin"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Hallenstadion",
+  "city": "Zurich"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Olympiahalle",
+  "city": "Munich"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Royal Albert Hall",
+  "city": "London"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Ericsson Globe",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Jyske Bank Boxen",
+  "city": "Herning"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Wizink Center",
+  "city": "Madrid"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Metro Radio Arena",
+  "city": "Newcastle"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "National Stadium of Peru",
+  "city": "Lima"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Movistar Arena",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Estadio Ciudad de La Plata",
+  "city": "La Plata"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Pedreira Paulo Leminski",
+  "city": "Curitiba"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Coliseo de Puerto Rico",
+  "city": "San Juan"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Coca-Cola Amphitheater",
+  "city": "Alajuela"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Palacio de los Deportes",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Sprint Center",
+  "city": "Kansas City"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "KeyBank Center",
+  "city": "Buffalo"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Videotron Centre",
+  "city": "Quebec City"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Tacoma Dome",
+  "city": "Tacoma"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Joshua Radin",
+  "city": "Indianapolis"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "James Blunt",
+  "city": "Omaha"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Lauv",
+  "city": "Singapore"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Axiata Arena",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Impact Arena",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "JioGarden",
+  "city": "Mumbai"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Autism Rocks Arena",
+  "city": "Dubai"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Indigo at The O2",
+  "city": "London"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Optus Stadium",
+  "city": "Perth"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Missy HigginsBliss n Eso",
+  "city": "Melbourne"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Missy HigginsRyan McMullan",
+  "city": "Sydney"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Missy HigginsFergus James",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Mount Smart Stadium",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Six60Mitch James",
+  "city": "Dunedin"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Mall of Asia Concert Grounds",
+  "city": "Manila"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Osaka-Jo Hall",
+  "city": "Osaka"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Boucher Playing Fields",
+  "city": "Belfast"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Pearse Stadium",
+  "city": "Galway"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Etihad Stadium",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Hampden Park",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "St. James Park",
+  "city": "Newcastle"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Principality Stadium",
+  "city": "Cardiff"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Amsterdam Arena",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Werchter Festival Ground",
+  "city": "Werchter"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Stade de France",
+  "city": "Saint-Denis"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Ullevi",
+  "city": "Gothenburg"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Olympiastadion",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Letzigrund",
+  "city": "Zurich"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Ernst-Happel-Stadion",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "PGE Narodowy",
+  "city": "Warsaw"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Rose Bowl",
+  "city": "Pasadena"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Rogers Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Busch Stadium",
+  "city": "St. Louis"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Snow PatrolLauv",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Snow Patrol",
+  "city": "Milwaukee"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Snow PatrolLauv",
+  "city": "Arlington"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Allianz Parque",
+  "city": "S\u00e3o Paulo"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Estadio Centenario",
+  "city": "Montevideo"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Campo Argentino de Polo",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "FNB Stadium",
+  "city": "Johannesburg"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Taoyuan City Stadium",
+  "city": "Taoyuan"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Tokyo Dome",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Bukit Jalil National Stadium",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Songdo Moonlight Festival Park",
+  "city": "Incheon"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Kyocera Dome",
+  "city": "Osaka"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Rajamangala Stadium",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Gelora Bung Karno Stadium",
+  "city": "Jakarta"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Groupama Stadium",
+  "city": "Lyon"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Ippodromo del Visarno",
+  "city": "Florence"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "James BayZara Larsson",
+  "city": "Rome"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Hockenheimring",
+  "city": "Hockenheim"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Lucavsala Park",
+  "city": "Riga"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Otkritie Arena",
+  "city": "Moscow"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Malmi Airport",
+  "city": "Helsinki"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Sziget Festival",
+  "city": "Budapest"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Roundhay Park",
+  "city": "Leeds"
+ },
+ {
+  "artist": "Ed Sheeran",
+  "tour": "\u00f7 Tour",
+  "venue": "Scottrade Center",
+  "city": "St. Louis"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "SF Masonic Auditorium",
+  "city": "San Francisco"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "MunaCam",
+  "city": "Nashville"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Muna",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Massey Hall",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Tower Theater",
+  "city": "Upper Darby"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Olympia",
+  "city": "Paris"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Palladium",
+  "city": "Cologne"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Eventim Apollo",
+  "city": "London"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "SEC Armadillo",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Fryshuset",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Tempodrom",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "AFAS Live",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Discoteca Alcatraz",
+  "city": "Milan"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Shanghai"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Enmore Theatre",
+  "city": "Sydney"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Ex Theater Roppongi",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "St. Jakobshalle",
+  "city": "Basel"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Ericsson Globe",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Royal Arena",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Oslo Spektrum",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Milan"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "SAP Arena",
+  "city": "Mannheim"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Genting Arena",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Perth Arena",
+  "city": "Perth"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Mall of Asia Arena",
+  "city": "Pasay"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Impact Arena",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "World Memorial Hall",
+  "city": "Kobe"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "DirecTV Arena",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Movistar Arena",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Jeunesse Arena",
+  "city": "Rio de Janeiro"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Palacio de los Deportes",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "American Airlines Center",
+  "city": "Dallas"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "TD Garden",
+  "city": "Boston"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Harry Styles",
+  "tour": "Harry Styles: Live on Tour",
+  "venue": "KeyArena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Smoothie King Center",
+  "city": "New Orleans"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Tkay Maidza",
+  "city": "Atlanta"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Duckwrth",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Climate Pledge Arena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "The SSE Arena",
+  "city": "Belfast"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "AO Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Jessie Reyez",
+  "city": "London"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "OVO Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Utilita Arena",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Jungle",
+  "city": "London"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Festhalle",
+  "city": "Frankfurt"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Accor Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Worthy Farm",
+  "city": "Pilton"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Arlo Parks",
+  "city": "London"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Mall of Asia Arena",
+  "city": "Pasay"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Gocheok Sky Dome",
+  "city": "Seoul"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Bukit Jalil National Stadium",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Impact Arena",
+  "city": "Pak Kret"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Ariake Arena",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Qudos Bank Arena",
+  "city": "Sydney"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Kia Forum",
+  "city": "Inglewood"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Parque Bicentenario de Cerrilos",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Interlagos Circuit",
+  "city": "S\u00e3o Paulo"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Foro Sol",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Billie Eilish",
+  "tour": "Happier Than Ever, The World Tour",
+  "venue": "Omar Apollo",
+  "city": "Guadalajara"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "FTX Arena",
+  "city": "Miami"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Megan Thee StallionCaroline Polachek",
+  "city": "Denver"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "AO Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Utilita Arena",
+  "city": "Newcastle"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "OVO Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Motorpoint Arena Nottingham",
+  "city": "Nottingham"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Motorpoint Arena Cardiff",
+  "city": "Cardiff"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Barclays Arena",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Accor Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Olympiahalle",
+  "city": "Munich"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Assago"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Halle Tony Garnier",
+  "city": "Lyon"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Altice Forum",
+  "city": "Braga"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Oslo Spektrum",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Roskilde Dyrskueplads",
+  "city": "Roskilde"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Bell Centre",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Grant Park",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Parc Jean-Drapeau",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Germia Park",
+  "city": "Pristina"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Arena Anhembi",
+  "city": "S\u00e3o Paulo"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Campo Argentino de Polo",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Estadio Bicentenario",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Foro Sol",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "The Woodlands ofDover International Speedway",
+  "city": "Dover"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Brisbane Entertainment Centre",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Dua Lipa",
+  "tour": "Future Nostalgia Tour",
+  "venue": "Skanderbeg Square",
+  "city": "Tirana"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "FLA Live Arena",
+  "city": "Sunrise"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Saucy Santana",
+  "city": "Tampa"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Latto",
+  "city": "Washington, D.C."
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "LattoSaucy Santana",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Latto",
+  "city": "Boston"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "LattoSaucy Santana",
+  "city": "Detroit"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Scotiabank Arena",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Xcel Energy Center",
+  "city": "Saint Paul"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "LattoSaucy Santana",
+  "city": "Indianapolis"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Latto",
+  "city": "Charlotte"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "LattoSaucy Santana",
+  "city": "Houston"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Latto",
+  "city": "Dallas"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Climate Pledge Arena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Spektrum",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Royal Arena",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Barclays Arena",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Lanxess Arena",
+  "city": "Cologne"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Assago"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Hallenstadion",
+  "city": "Zurich"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Accor Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "OVO Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Utilita Arena",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Thompson-Boling Arena",
+  "city": "Knoxville"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Latto",
+  "city": "Baltimore"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Bell Centre",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "XL Center",
+  "city": "Hartford"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Ormeau Park",
+  "city": "Belfast"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Worthy Farm",
+  "city": "Pilton"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Gdynia-Kosakowo Airport",
+  "city": "Gdynia"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Roskilde Dyrskueplads",
+  "city": "Roskilde"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Espacio Mad Cool Villaverde",
+  "city": "Madrid"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Rotterdam Ahoy",
+  "city": "Rotterdam"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "RAC Arena",
+  "city": "Perth"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Tkay Maidza",
+  "city": "Sydney"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Lizzo",
+  "tour": "Special Tour",
+  "venue": "Naeba Ski Resort",
+  "city": "Niigata"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Target Center",
+  "city": "Minneapolis"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Little Caesars Arena",
+  "city": "Detroit"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Kali Uchis",
+  "city": "Phoenix"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Parque O'Higgins",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Parque Deportivo 222",
+  "city": "Bogot\u00e1"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Riverstage",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Milan"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Lana Del Rey",
+  "tour": "LA to the Moon Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Theater of the Clouds",
+  "city": "Portland"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Thunderbird Sports Centre",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "UCCU Center",
+  "city": "Orem"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Holly Humberstone",
+  "city": "New York City"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Massey Hall",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Roadrunner",
+  "city": "Boston"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Chappell Roan",
+  "city": "San Francisco"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Stadtpark Open Air",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Halle 622",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Fabrique",
+  "city": "Milan"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Palladium",
+  "city": "Cologne"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Forest National",
+  "city": "Brussels"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "AFAS Live",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Worthy Farm",
+  "city": "Pilton"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "Docklands",
+  "city": "Cork"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "O2 Academy Glasgow",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Olivia Rodrigo",
+  "tour": "Sour Tour",
+  "venue": "O2 Apollo Manchester",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Grand Ole Opry House",
+  "city": "Nashville"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Salle Wilfrid-Pelletier",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Wang Theatre",
+  "city": "Boston"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "O2 Academy Leeds",
+  "city": "Leeds"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Marlon Williams",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Royal Hospital Kilmainham",
+  "city": "Dublin"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Casino de Paris",
+  "city": "Paris"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "AFAS Live",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Halle 622",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Zenith",
+  "city": "Munich"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Cavea Amphitheater",
+  "city": "Rome"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Marlon Williams",
+  "city": "Villafranca di Verona"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "St. Michael's Fortress",
+  "city": "\u0160ibenik"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Worthy Farm",
+  "city": "Pilton"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Marlon Williams",
+  "city": "London"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Sentrum Scene",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Mohegan Sun Arena",
+  "city": "Uncasville"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Jim-E Stack",
+  "city": "Washington, D.C."
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Royal Athletic Park",
+  "city": "Victoria"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Merriweather Post Pavilion",
+  "city": "Columbia"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Pepsi Center WTC",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Anhembi Convention Center",
+  "city": "S\u00e3o Paulo"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Japanese Breakfast",
+  "city": "Rio de Janeiro"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Parque Bicentenario Cerrillos",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Costanera Sur",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "TSB Bank Arena",
+  "city": "Wellington"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Fazerdaze and Riiki Reid",
+  "city": "Upper Moutere"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Marlon Williams, Fazerdaze, and Riiki Reid",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Riverstage",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "MUNA and Stellie",
+  "city": "Adelaide"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Laura Jean",
+  "city": "Perth"
+ },
+ {
+  "artist": "Lorde",
+  "tour": "Solar Power Tour",
+  "venue": "Black Barn Amphitheatre",
+  "city": "Hastings"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "KeyArena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Moda Center",
+  "city": "Portland"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Post MaloneMoxie Raia",
+  "city": "Sacramento"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Canadian Tire Centre",
+  "city": "Ottawa"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Post MaloneMoxie Raia",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Moxie Raia",
+  "city": "Winnipeg"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Post MaloneMoxie Raia",
+  "city": "Calgary"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Fargodome",
+  "city": "Fargo"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Makuhari Messe",
+  "city": "Chiba"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Hylands Park",
+  "city": "Chelmsford"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Telenor Arena",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Hartwall Arena",
+  "city": "Helsinki"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Tele2 Arena",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Telia Parken",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "GelreDome",
+  "city": "Arnhem"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Arena Zagreb",
+  "city": "Zagreb"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Tauron Arena",
+  "city": "Krak\u00f3w"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "O2 Arena",
+  "city": "Prague"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Barclaycard Arena",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Unipol Arena",
+  "city": "Bologna"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "MEO Arena",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Estadio BBVA Bancomer",
+  "city": "Monterrey"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Robin Schulz",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Mount Smart Stadium",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Estadio Nacional",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Estadio Nacional",
+  "city": "Lima"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Plaza Figali",
+  "city": "Panama City"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Estadio Nacional",
+  "city": "San Jose"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Yarkon Park",
+  "city": "Tel Aviv"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Autism Rocks Arena",
+  "city": "Dubai"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "DY Patil Stadium",
+  "city": "Mumbai"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "FNB Stadium",
+  "city": "Johannesburg"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Megaland",
+  "city": "Landgraaf"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Forus Travbane",
+  "city": "Stavanger"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Stade de Suisse",
+  "city": "Bern"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Autodromo Nazionale Monza",
+  "city": "Monza"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "RDS Arena",
+  "city": "Dublin"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Stade Pierre-Mauroy",
+  "city": "Lille"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Commerzbank Arena",
+  "city": "Frankfurt"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Principality Stadium",
+  "city": "Cardiff"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Hyde Park",
+  "city": "London"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Atanasio Girardot Sports Complex",
+  "city": "Medell\u00edn"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Rogers Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Ajinomoto Stadium",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Purpose World Tour",
+  "venue": "Philippine Arena",
+  "city": "Bocaue"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Tacoma Dome",
+  "city": "Tacoma"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Scotiabank Arena",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Capital One Arena",
+  "city": "Washington, D.C."
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Estadio Nacional de Chile",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Estadio Ciudad de La Plata",
+  "city": "La Plata"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Allianz Parque",
+  "city": "S\u00e3o Paulo"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Cape Town Stadium",
+  "city": "Cape Town"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Al Dana Amphitheatre",
+  "city": "Sakhir"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Coca-Cola Arena",
+  "city": "Dubai"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Yarkon Park",
+  "city": "Tel Aviv"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Jawaharlal Nehru Stadium",
+  "city": "New Delhi"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Bukit Jalil National Stadium",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Cultural Center of the Philippines Complex",
+  "city": "Manila"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Gelora Bung Karno Madya Stadium",
+  "city": "Jakarta"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Rajamangala National Stadium",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Vantelin Dome",
+  "city": "Nagoya"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "HBF Park",
+  "city": "Perth"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Mount Smart Stadium",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Barclays Arena",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Altice Arena",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "WiZink Center",
+  "city": "Madrid"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Unipol Arena",
+  "city": "Bologna"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Lanxess Arena",
+  "city": "Cologne"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "OVO Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "AO Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Accor Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Olympiahalle",
+  "city": "Munich"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Budapest Sports Arena",
+  "city": "Budapest"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "O2 Arena",
+  "city": "Prague"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Tele2 Arena",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Royal Arena",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Justin Bieber",
+  "tour": "Justice World Tour",
+  "venue": "Tauron Arena",
+  "city": "Krak\u00f3w"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Lincoln Financial Field",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Kaytranada",
+  "city": "Tampa"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Mike DeanKaytranada",
+  "city": "Miami Gardens"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Mike DeanSnoh Aalegra",
+  "city": "Atlanta"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Mike DeanKaytranada",
+  "city": "Denver"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "BC Place",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Lumen Field",
+  "city": "Seattle"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Mike DeanKaytranada",
+  "city": "Glendale"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Rogers Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "SoFi Stadium",
+  "city": "Inglewood"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Etihad Stadium",
+  "city": "Manchester"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Nordstern Arena",
+  "city": "Horsens"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Tele2 Arena",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Telenor Arena",
+  "city": "Oslo"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Johan Cruyff Arena",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Marlay Park",
+  "city": "Dublin"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Volksparkstadion",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "London Stadium",
+  "city": "London"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "King Baudouin Stadium",
+  "city": "Brussels"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Deutsche Bank Park",
+  "city": "Frankfurt"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Allianz Riviera",
+  "city": "Nice"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Ippodromo Snai La Maura",
+  "city": "Milan"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Stade de France",
+  "city": "Saint-Denis"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Olympiastadion",
+  "city": "Munich"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "PGE Narodowy",
+  "city": "Warsaw"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Tallinn Song Festival Grounds",
+  "city": "Tallinn"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Wembley Stadium",
+  "city": "London"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Estadio BBVA",
+  "city": "Guadalupe"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Estadio Bicentenario de La Florida",
+  "city": "Santiago"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Estadio River Plate",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Estadio Universidad San Marcos",
+  "city": "Lima"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Estadio Akron",
+  "city": "Zapopan"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "State Farm Stadium",
+  "city": "Glendale"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "BC Place",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "KaytranadaMike Dean",
+  "city": "Montreal"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Lincoln Financial Field",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Playboi CartiMike Dean",
+  "city": "Landover"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Rogers Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Nissan Stadium",
+  "city": "Nashville"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Estadio GNP Seguros",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Etihad Stadium",
+  "city": "Manchester"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Parken Stadium",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Allianz Arena",
+  "city": "Munich"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Stade Pierre-Mauroy",
+  "city": "Lille"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Johan Cruyff Arena",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Allianz Riviera",
+  "city": "Nice"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "San Siro",
+  "city": "Milan"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Deutsche Bank Park",
+  "city": "Frankfurt"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "PGE Narodowy",
+  "city": "Warsaw"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Strawberry Arena",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Wembley Stadium",
+  "city": "London"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Croke Park",
+  "city": "Dublin"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Riyadh Air Metropolitano",
+  "city": "Madrid"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Belluna Dome",
+  "city": "Tokorozawa"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Jakarta International Stadium",
+  "city": "Jakarta"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Creepy Nuts",
+  "city": "Singapore"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Goyang Stadium",
+  "city": "Goyang"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Rajamangala Stadium",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "TM Stadium National",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Suncorp Stadium",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Eden Park",
+  "city": "Auckland"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "After Hours til Dawn Tour",
+  "venue": "Allegiant Stadium",
+  "city": "Paradise"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Ericsson Globe",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Oslo Spektrum",
+  "city": "Oslo"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Royal Arena",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Lanxess Arena",
+  "city": "Cologne"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Manchester Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Metro Radio Arena",
+  "city": "Newcastle"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "KeyArena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "BellyNav",
+  "city": "Houston"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Rae SremmurdBelly6lack",
+  "city": "New Orleans"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Mohegan Sun Arena",
+  "city": "Uncasville"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Belly6lack",
+  "city": "Uniondale"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Rae SremmurdBelly6lack",
+  "city": "Newark"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Koengen",
+  "city": "Bergen"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Bryce Jordan Center",
+  "city": "University Park"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "TD Garden",
+  "city": "Boston"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Gucci ManeNav",
+  "city": "Saint Paul"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Rogers Place",
+  "city": "Edmonton"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Moda Center",
+  "city": "Portland"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "French MontanaNav",
+  "city": "San Antonio"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Gucci ManeNav",
+  "city": "Tulsa"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "The Weeknd",
+  "tour": "Starboy: Legend of the Fall Tour",
+  "venue": "Qudos Bank Arena",
+  "city": "Sydney"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Times Union Center",
+  "city": "Albany"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Bell Centre",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Little Caesars Arena",
+  "city": "Detroit"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Rogers Place",
+  "city": "Edmonton"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Moda Center",
+  "city": "Portland"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "NormaniSocial House",
+  "city": "New York City"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Scotiabank Arena",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Bankers Life Fieldhouse",
+  "city": "Indianapolis"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Lanxess Arena",
+  "city": "Cologne"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "O2 Arena",
+  "city": "Prague"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Arena Birmingham",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "FlyDSA Arena",
+  "city": "Sheffield"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Barclaycard Arena",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Royal Arena",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Telenor Arena",
+  "city": "Fornebu"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Hartwall Arena",
+  "city": "Helsinki"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Ericsson Globe",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Barclaycard Arena",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Sweetener World Tour",
+  "venue": "Nassau Veterans Memorial Coliseum",
+  "city": "Uniondale"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Talking Stick Resort Arena",
+  "city": "Phoenix"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Nationwide Arena",
+  "city": "Columbus"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Golden 1 Center",
+  "city": "Sacramento"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Friends Arena",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Telenor Arena",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Jyske Bank Boxen",
+  "city": "Herning"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Genting Arena",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Manchester Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "MEO Arena",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "PalaLottomatica",
+  "city": "Rome"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Jeunesse Arena",
+  "city": "Rio de Janeiro"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Movistar Arena",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "DirecTV Arena",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Coca-Cola Amphitheater",
+  "city": "Alajuela"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Palacio de los Deportes",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Makuhari Event Hall",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Gocheok Sky Dome",
+  "city": "Seoul"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Impact Arena",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "SM Mall of Asia Arena",
+  "city": "Manila"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "LeSports Center",
+  "city": "Beijing"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Rod Laver Arena",
+  "city": "Melbourne"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Taipei Arena",
+  "city": "Taipei"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Atlas Arena",
+  "city": "\u0141\u00f3d\u017a"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Festhalle",
+  "city": "Frankfurt"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Ariana Grande",
+  "tour": "Dangerous Woman Tour",
+  "venue": "Arena VFG",
+  "city": "Guadalajara"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Stade Pierre-Mauroy",
+  "city": "Lille"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "WiZink Center",
+  "city": "Madrid"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "MEO Arena",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Sud de France Arena",
+  "city": "Montpellier"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Lanxess Arena",
+  "city": "Cologne"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Echo Arena",
+  "city": "Liverpool"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Manchester Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Olympiahalle",
+  "city": "Munich"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Royal Arena",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Ericsson Globe",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Hartwall Arena",
+  "city": "Helsinki"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Telenor Arena",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Tauron Arena",
+  "city": "Krak\u00f3w"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Budapest Sports Arena",
+  "city": "Budapest"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Festhalle Frankfurt",
+  "city": "Frankfurt"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Unipol Arena",
+  "city": "Bologna"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Geneva Arena",
+  "city": "Geneva"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Milan"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "T-Mobile Arena",
+  "city": "Las Vegas"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Camila Cabello",
+  "city": "San Jose"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Fargodome",
+  "city": "Fargo"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Videotron Centre",
+  "city": "Quebec City"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Spectrum Center",
+  "city": "Charlotte"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "N/A",
+  "city": "Atlanta"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Dua Lipa",
+  "city": "Memphis"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Jorja Smith",
+  "city": "Brooklyn"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Estadio Ciudad de La Plata",
+  "city": "La Plata"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Estadio Nacional de Chile",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Estadio Nacional de Costa Rica",
+  "city": "San Jos\u00e9"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Estadio Universitario",
+  "city": "Monterrey"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Bebe RexhaNick Jonas",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Rod Laver Arena",
+  "city": "Melbourne"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "DJ LeggoMy Fueggo",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Saitama Super Arena",
+  "city": "Saitama"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Nangang Exhibition Center",
+  "city": "Taipei"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Shanghai"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "IMPACT Arena",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Mall of Asia Arena",
+  "city": "Pasay"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Axiata Arena",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Festivalpark Werchter",
+  "city": "Werchter"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Megaland Landgraaf",
+  "city": "Langraaf"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Parque da Bela Vista",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "OLM Souissi",
+  "city": "Rabat"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Stade de France",
+  "city": "Saint-Denis"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Bergenhus Fortress",
+  "city": "Bergen"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Roskilde Festival",
+  "city": "Roskilde"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Gdynia-Kosakowo Airport",
+  "city": "Gdynia"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Glasgow Green",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Marlay Park",
+  "city": "Dublin"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Hyde Park",
+  "city": "London"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Grant Park",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Boyz II MenDJ Rashida",
+  "city": "Denver"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Charlie WilsonDJ Rashida",
+  "city": "Saint Paul"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Boyz II MenDJ Rashida",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Scotiabank Arena",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "TD Garden",
+  "city": "Boston"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Ella MaiDJ Rashida",
+  "city": "Brooklyn"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Charlie WilsonDJ Rashida",
+  "city": "Dallas"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "N/A",
+  "city": "Austin"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Boyz II MenDJ Rashida",
+  "city": "Los Angeles"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Charlie Wilson",
+  "city": "Honolulu"
+ },
+ {
+  "artist": "Bruno Mars",
+  "tour": "24K Magic World Tour",
+  "venue": "Boyz II Men",
+  "city": "Las Vegas"
+ },
+ {
+  "artist": "Drake",
+  "tour": "Summer Sixteen Tour",
+  "venue": "Frank Erwin Center",
+  "city": "Austin"
+ },
+ {
+  "artist": "Drake",
+  "tour": "Summer Sixteen Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Drake",
+  "tour": "Summer Sixteen Tour",
+  "venue": "Madison Square Garden",
+  "city": "New York City"
+ },
+ {
+  "artist": "Drake",
+  "tour": "Summer Sixteen Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Drake",
+  "tour": "Summer Sixteen Tour",
+  "venue": "SAP Center",
+  "city": "San Jose"
+ },
+ {
+  "artist": "Drake",
+  "tour": "Summer Sixteen Tour",
+  "venue": "Bell Centre",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Manchester Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Milan"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "WiZink Center",
+  "city": "Madrid"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "MEO Arena",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Olympiahalle",
+  "city": "Munich"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Ericsson Globe",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Telenor Arena",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Forum Copenhagen",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Barclaycard Arena",
+  "city": "Hamburg"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Palais 12",
+  "city": "Brussels"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Moda Center",
+  "city": "Portland"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "KeyArena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Barclays Center",
+  "city": "Brooklyn"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Barra Olympic Park",
+  "city": "Rio de Janeiro"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Brisbane Entertainment Centre",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "IMPACT Arena",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Shawn Mendes",
+  "tour": "Illuminate World Tour",
+  "venue": "Tokyo International Forum",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Budweiser Stage",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Blue Hills Bank Pavilion",
+  "city": "Boston"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Impact Arena",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Shanghai"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Koh Pich",
+  "city": "Phnom Penh"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Jamsil Arena",
+  "city": "Seoul"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "NTSU Arena",
+  "city": "Taoyuan"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Malawati Stadium",
+  "city": "Shah Alam"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Indonesia Convention Exhibition",
+  "city": "Jakarta"
+ },
+ {
+  "artist": "Charlie Puth",
+  "tour": "Voicenotes Tour",
+  "venue": "Osaka Prefectural Gymnasium",
+  "city": "Osaka"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Mohegan Sun Arena",
+  "city": "Uncasville"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Air Canada Centre",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "TD Garden",
+  "city": "Boston"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Xcel Energy Center",
+  "city": "Saint Paul"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Margaret Court Arena",
+  "city": "Melbourne"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Gulf Shores Public Beaches",
+  "city": "Gulf Shores"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Teatro Gran Rex",
+  "city": "Buenos Aires"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Pepsi Center",
+  "city": "Mexico City"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "River's Edge",
+  "city": "Heber City"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "NFLogic",
+  "city": "Milwaukee"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Jessie Reyez",
+  "city": "Lansing"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "M Telus",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Bold Point Pavilion",
+  "city": "East Providence"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Chelsea Cutler",
+  "city": "Atlantic City"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Jessie Reyez",
+  "city": "Wolf Trap"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Lauren Jauregui",
+  "city": "Honolulu"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "YES 24 Live Hall",
+  "city": "Seoul"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "New Frontier Theater",
+  "city": "Quezon City"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Gandaria City",
+  "city": "Jakarta"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "La Riviera",
+  "city": "Madrid"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "L'Olympia",
+  "city": "Paris"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Ancienne Belgique",
+  "city": "Brussels"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Eventim Apollo",
+  "city": "London"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "AFAS Live",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Halsey",
+  "tour": "Hopeless Fountain Kingdom Tour",
+  "venue": "Columbiahalle",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "The SSE Arena",
+  "city": "Belfast"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Sheffield Arena",
+  "city": "Sheffield"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Metro Radio Arena",
+  "city": "Newcastle"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Ascend Amphitheater",
+  "city": "Nashville"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "The Ghost of a Saber Tooth Tiger",
+  "city": "Los Angeles"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "KeyArena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Perth Arena",
+  "city": "Perth"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Vector Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Du Arena",
+  "city": "Abu Dhabi"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Sportpaleis",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Atlas Arena",
+  "city": "\u0141\u00f3d\u017a"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Velodrom",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Milan"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Parque Deportivo 222",
+  "city": "Bogot\u00e1"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "O'Higgins Park",
+  "city": "Santiago"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Unipol Arena",
+  "city": "Bologna"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "MEO Arena",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "American Airlines Arena",
+  "city": "Miami"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Grimes",
+  "city": "The Woodlands"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Grimes",
+  "city": "Bonner Springs"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Of Monsters and Men",
+  "city": "Saint Paul"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Grimes Of Monsters and Men",
+  "city": "Cincinnati"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Of Monsters and Men",
+  "city": "Mansfield"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Bell Centre",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "DTE Energy Music Theatre",
+  "city": "Clarkston"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Grimes",
+  "city": "Brooklyn"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Lake Jarun",
+  "city": "Zagreb"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Hyde Park",
+  "city": "London"
+ },
+ {
+  "artist": "Florence and the Machine",
+  "tour": "How Big, How Blue, How Beautiful Tour",
+  "venue": "Werchter Festival Grounds",
+  "city": "Werchter"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "SSE Arena",
+  "city": "Belfast"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "The SSE Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Genting Arena",
+  "city": "Birmingham"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Wells Fargo Center",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Scotiabank Arena",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "The Outer Fields at Western Springs",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Brisbane Entertainment Centre",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Michael KiwanukaGretta Ray",
+  "city": "Melbourne"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Dunkin' Donuts Center",
+  "city": "Providence"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Bell Centre",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "KeyBank Center",
+  "city": "Buffalo"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Altice Arena",
+  "city": "Lisbon"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Palau Sant Jordi",
+  "city": "Barcelona"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Mediolanum Forum",
+  "city": "Milan"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Olympiahalle",
+  "city": "Munich"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Wiener Stadthalle",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "St. Jakobshalle",
+  "city": "Basel"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Rockhal",
+  "city": "Esch-sur-Alzette"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Royal Arena",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Scandinavium",
+  "city": "Gothenburg"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Oslo Spektrum",
+  "city": "Oslo"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Ericsson Globe",
+  "city": "Stockholm"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Napa Valley Expo",
+  "city": "Napa"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Victoria Park",
+  "city": "London"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Megaland",
+  "city": "Landgraaf"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Motorpoint Arena",
+  "city": "Cardiff"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Malahide Castle",
+  "city": "Malahide"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Eichenring",
+  "city": "Schee\u00dfel"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Festivalpark",
+  "city": "Werchter"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Banc of California Stadium",
+  "city": "Los Angeles"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "BC Place",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "The Gorge Amphitheatre",
+  "city": "George"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Lord Huron",
+  "city": "Greenwood Village"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Gang of Youths",
+  "city": "San Francisco"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Auditorio Telmex",
+  "city": "Guadalajara"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Zilker Park",
+  "city": "Austin"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Gang of Youths",
+  "city": "Houston"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Namba Hatch",
+  "city": "Osaka"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "MUV Hall",
+  "city": "Seoul"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Legacy Taipei",
+  "city": "Taipei"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "GMM Live House",
+  "city": "Bangkok"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Barclays Center",
+  "city": "Brooklyn"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Local Natives",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Mumford & Sons",
+  "tour": "Delta Tour",
+  "venue": "Sunshine Grove",
+  "city": "Okeechobee, FL"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Rialto Bozeman",
+  "city": "Bozeman"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Katie Von Schleicher",
+  "city": "Fort Collins"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Caroline Rose",
+  "city": "Woodstock"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Columbus Theatre",
+  "city": "Providence"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Manchester Gorilla",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Tivoli Theatre",
+  "city": "Dublin"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Brudenell Social Club",
+  "city": "Leeds"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "La Maroquinerie",
+  "city": "Paris"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "TRIX",
+  "city": "Antwerp"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Paradiso Noord",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Vega",
+  "city": "Copenhagen"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Union Transfer",
+  "city": "Philadelphia"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Club Soda",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Magic Stick",
+  "city": "Detroit"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Imperial",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "The Showbox",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "SasamiDowntown Boys",
+  "city": "New York City"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Albert Park",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Brisbane Showgrounds",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Shibuya WWWX",
+  "city": "Tokyo"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Rolling Hall",
+  "city": "Seoul"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "The Wall",
+  "city": "Taipei"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "The Bee",
+  "city": "Kuala Lumpur"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Rossi Musik",
+  "city": "Jakarta"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Mr. Smalls",
+  "city": "Millvale"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Jay Som",
+  "city": "Kansas City"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Jay Som",
+  "city": "Gainesville"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Dilly Dally",
+  "city": "Dallas"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Dilly Dally",
+  "city": "Houston"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Julianna Barwick",
+  "city": "Los Angeles"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Naeba Ski Resort",
+  "city": "Niigata"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Parc Jean-Drapeau",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Grant Park",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Slottsskogen",
+  "city": "Gothenburg"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Suvilahti",
+  "city": "Helsinki"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Flex",
+  "city": "Vienna"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Heimathafen",
+  "city": "Berlin"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Larmer Tree Gardens",
+  "city": "Salisbury"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Stradbally Hall",
+  "city": "Stradbally"
+ },
+ {
+  "artist": "Mitski",
+  "tour": "Be the Cowboy Tour",
+  "venue": "Central Park Summer Stage",
+  "city": "New York City"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Schottestein Center",
+  "city": "Columbus"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Scotiabank Arena",
+  "city": "Toronto"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Capital One Arena",
+  "city": "Washington, D.C."
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Kia Forum",
+  "city": "Inglewood"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Ziggo Dome",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Accor Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Hallenstadion",
+  "city": "Z\u00fcrich"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Mercedes-Benz Arena",
+  "city": "Berlin"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "AO Arena",
+  "city": "Manchester"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "OVO Hydro",
+  "city": "Glasgow"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Kaseya Center",
+  "city": "Miami"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "SZA",
+  "tour": "SOS Tour",
+  "venue": "Brisbane Entertainment Centre",
+  "city": "Brisbane"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Infinite Energy Arena",
+  "city": "Duluth"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Scotiabank Arena",
+  "city": "Toronto"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "TD Garden",
+  "city": "Boston"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Vince Staples",
+  "city": "Nashville"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Rogers Arena",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Oracle Arena",
+  "city": "Oakland"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Vince Staples",
+  "city": "San Jose"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Rae Sremmurd",
+  "city": "Inglewood"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "The O2 Arena",
+  "city": "London"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "AccorHotels Arena",
+  "city": "Paris"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "HBF Stadium",
+  "city": "Perth"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Lollapalooza",
+  "city": "Chicago"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Osheaga Festival",
+  "city": "Montreal"
+ },
+ {
+  "artist": "Childish Gambino",
+  "tour": "This Is America Tour",
+  "venue": "Outside Lands Music and Arts Festival",
+  "city": "San Francisco"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Pechanga Arena",
+  "city": "San Diego"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Place Bell",
+  "city": "Laval"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Petersen Events Center",
+  "city": "Pittsburgh"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Pacific Coliseum",
+  "city": "Vancouver"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Climate Pledge Arena",
+  "city": "Seattle"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Sljuzjewiec Racetrack",
+  "city": "Warsaw"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "AFAS Live",
+  "city": "Amsterdam"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Heaton Park",
+  "city": "Manchester"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Darupvej",
+  "city": "Roskilde"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Marlay Park",
+  "city": "Dublin"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Crystal Palace Park",
+  "city": "London"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Grosse Allmend",
+  "city": "Frauenfeld"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Rocourt",
+  "city": "Li\u00e8ge"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Spark Arena",
+  "city": "Auckland"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "North Byron Parklands",
+  "city": "Byron Bay"
+ },
+ {
+  "artist": "Tyler, the Creator",
+  "tour": "Call Me If You Get Lost Tour",
+  "venue": "Tierra Whack",
+  "city": "Perth"
+ }
+]

@@ -1,0 +1,585 @@
+[
+ {
+  "entity_id": "9ACED680-DBE7-4E49-BC92-D95B971B5CAC",
+  "qloo_name": "Rogers Arena",
+  "resolved_city": "Vancouver",
+  "resolved_country": "CA",
+  "genre": "Arena",
+  "query": "Rogers Arena",
+  "wiki_city": "Vancouver",
+  "artists": [
+   "Ariana Grande",
+   "Billie Eilish",
+   "Bruno Mars",
+   "Childish Gambino",
+   "Drake",
+   "Dua Lipa",
+   "Florence and the Machine",
+   "Halsey",
+   "Harry Styles",
+   "Justin Bieber",
+   "Lizzo",
+   "SZA",
+   "Shawn Mendes",
+   "The Weeknd"
+  ],
+  "n_artists": 14
+ },
+ {
+  "entity_id": "B6651E74-943D-4A0D-8D10-EA15D01F3410",
+  "qloo_name": "Ziggo Dome",
+  "resolved_city": "Amsterdam",
+  "resolved_country": "NL",
+  "genre": "Event venue",
+  "query": "Ziggo Dome",
+  "wiki_city": "Amsterdam",
+  "artists": [
+   "Ariana Grande",
+   "Billie Eilish",
+   "Bruno Mars",
+   "Dua Lipa",
+   "Ed Sheeran",
+   "Florence and the Machine",
+   "Harry Styles",
+   "Justin Bieber",
+   "Lizzo",
+   "Mumford & Sons",
+   "SZA",
+   "Shawn Mendes",
+   "The Weeknd"
+  ],
+  "n_artists": 13
+ },
+ {
+  "entity_id": "4560B31F-FC1C-4920-AF54-773C48222CCE",
+  "qloo_name": "Spark Arena",
+  "resolved_city": "Auckland",
+  "resolved_country": "NZ",
+  "genre": "Arena",
+  "query": "Spark Arena",
+  "wiki_city": "Auckland",
+  "artists": [
+   "Ariana Grande",
+   "Billie Eilish",
+   "Bruno Mars",
+   "Dua Lipa",
+   "Halsey",
+   "Harry Styles",
+   "Lizzo",
+   "SZA",
+   "Shawn Mendes",
+   "The Weeknd",
+   "Tyler, the Creator"
+  ],
+  "n_artists": 11
+ },
+ {
+  "entity_id": "5B9B07C7-FF6A-4A90-A669-7F5E9A96498C",
+  "qloo_name": "Palau Sant Jordi",
+  "resolved_city": "Barcelona",
+  "resolved_country": "ES",
+  "genre": "Sports complex",
+  "query": "Palau Sant Jordi",
+  "wiki_city": "Barcelona",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Dua Lipa",
+   "Florence and the Machine",
+   "Harry Styles",
+   "Justin Bieber",
+   "Lana Del Rey",
+   "Mumford & Sons",
+   "Shawn Mendes"
+  ],
+  "n_artists": 9
+ },
+ {
+  "entity_id": "34F36EF7-CA53-4A6A-ACC6-92BB3BC78714",
+  "qloo_name": "OVO Hydro",
+  "resolved_city": "Glasgow",
+  "resolved_country": "GB",
+  "genre": "Arena",
+  "query": "SSE Hydro",
+  "wiki_city": "Glasgow",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Ed Sheeran",
+   "Florence and the Machine",
+   "Harry Styles",
+   "Justin Bieber",
+   "Shawn Mendes",
+   "The Weeknd"
+  ],
+  "n_artists": 8
+ },
+ {
+  "entity_id": "3E903FDB-78F8-4EDA-BB7D-69E76B40AE20",
+  "qloo_name": "Royal Arena",
+  "resolved_city": "Copenhagen Municipality",
+  "resolved_country": "DK",
+  "genre": "Arena",
+  "query": "Royal Arena",
+  "wiki_city": "Copenhagen",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Harry Styles",
+   "Justin Bieber",
+   "Lizzo",
+   "Mumford & Sons",
+   "The Weeknd"
+  ],
+  "n_artists": 7
+ },
+ {
+  "entity_id": "057B8C9D-8A8B-4129-B2A1-BF741DAFAB98",
+  "qloo_name": "Wiener Stadthalle",
+  "resolved_city": "Vienna",
+  "resolved_country": "AT",
+  "genre": "Event venue",
+  "query": "Wiener Stadthalle",
+  "wiki_city": "Vienna",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Dua Lipa",
+   "Florence and the Machine",
+   "Justin Bieber",
+   "Mumford & Sons",
+   "Shawn Mendes"
+  ],
+  "n_artists": 7
+ },
+ {
+  "entity_id": "A358FF23-4DBF-4FE9-8364-12802CFCD0FA",
+  "qloo_name": "Scotiabank Arena",
+  "resolved_city": "Toronto",
+  "resolved_country": "CA",
+  "genre": "Arena",
+  "query": "Scotiabank Arena",
+  "wiki_city": "Toronto",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Childish Gambino",
+   "Justin Bieber",
+   "Lizzo",
+   "Mumford & Sons",
+   "SZA"
+  ],
+  "n_artists": 7
+ },
+ {
+  "entity_id": "AFC4C58C-6A4F-457C-A449-8A4BAD0E4BCA",
+  "qloo_name": "AFAS Live",
+  "resolved_city": "Amsterdam",
+  "resolved_country": "NL",
+  "genre": "Concert hall",
+  "query": "AFAS Live",
+  "wiki_city": "Amsterdam",
+  "artists": [
+   "Halsey",
+   "Harry Styles",
+   "Lorde",
+   "Olivia Rodrigo",
+   "Tyler, the Creator"
+  ],
+  "n_artists": 5
+ },
+ {
+  "entity_id": "8DBFAB88-70F1-4E78-8852-BB275068DAFA",
+  "qloo_name": "TD Garden",
+  "resolved_city": "Boston",
+  "resolved_country": "US",
+  "genre": "Arena",
+  "query": "TD Garden",
+  "wiki_city": "Boston",
+  "artists": [
+   "Bruno Mars",
+   "Childish Gambino",
+   "Halsey",
+   "Harry Styles",
+   "The Weeknd"
+  ],
+  "n_artists": 5
+ },
+ {
+  "entity_id": "34F36EF7-CA53-4A6A-ACC6-92BB3BC78714",
+  "qloo_name": "OVO Hydro",
+  "resolved_city": "Glasgow",
+  "resolved_country": "GB",
+  "genre": "Arena",
+  "query": "OVO Hydro",
+  "wiki_city": "Glasgow",
+  "artists": [
+   "Billie Eilish",
+   "Dua Lipa",
+   "Justin Bieber",
+   "Lizzo",
+   "SZA"
+  ],
+  "n_artists": 5
+ },
+ {
+  "entity_id": "5DDC9AD4-6E25-4921-8B4E-50262D47B23C",
+  "qloo_name": "Accor Arena",
+  "resolved_city": "Paris",
+  "resolved_country": "FR",
+  "genre": "Live music venue",
+  "query": "Accor Arena",
+  "wiki_city": "Paris",
+  "artists": [
+   "Billie Eilish",
+   "Dua Lipa",
+   "Justin Bieber",
+   "Lizzo",
+   "SZA"
+  ],
+  "n_artists": 5
+ },
+ {
+  "entity_id": "B7818310-8C0D-4418-BCBE-39A1E0863284",
+  "qloo_name": "Lanxess Arena",
+  "resolved_city": "Cologne",
+  "resolved_country": "DE",
+  "genre": "Arena",
+  "query": "Lanxess Arena",
+  "wiki_city": "Cologne",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Justin Bieber",
+   "Lizzo",
+   "The Weeknd"
+  ],
+  "n_artists": 5
+ },
+ {
+  "entity_id": "6EA65069-A29A-4BBF-9B03-353307FB4053",
+  "qloo_name": "MEO Arena",
+  "resolved_city": "Lisbon",
+  "resolved_country": "PT",
+  "genre": "Arena",
+  "query": "MEO Arena",
+  "wiki_city": "Lisbon",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Florence and the Machine",
+   "Justin Bieber",
+   "Shawn Mendes"
+  ],
+  "n_artists": 5
+ },
+ {
+  "entity_id": "F12772EC-7697-44F5-98FD-CB41C34D65ED",
+  "qloo_name": "Principality Stadium",
+  "resolved_city": "Cardiff",
+  "resolved_country": "GB",
+  "genre": "Stadium",
+  "query": "Principality Stadium",
+  "wiki_city": "Cardiff",
+  "artists": [
+   "Coldplay",
+   "Ed Sheeran",
+   "Justin Bieber",
+   "Taylor Swift"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "D29B3E5B-9548-4E64-9956-AAC2B64BC5B4",
+  "qloo_name": "PGE Narodowy",
+  "resolved_city": "Warsaw",
+  "resolved_country": "PL",
+  "genre": "Stadium",
+  "query": "PGE Narodowy",
+  "wiki_city": "Warsaw",
+  "artists": [
+   "Coldplay",
+   "Ed Sheeran",
+   "Taylor Swift",
+   "The Weeknd"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "0C4BB255-4A08-4AAA-94B3-17622CCD7F97",
+  "qloo_name": "Rogers Centre",
+  "resolved_city": "Toronto",
+  "resolved_country": "CA",
+  "genre": "Stadium",
+  "query": "Rogers Centre",
+  "wiki_city": "Toronto",
+  "artists": [
+   "Ed Sheeran",
+   "Justin Bieber",
+   "Taylor Swift",
+   "The Weeknd"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "A3FF9358-FD4F-4ACB-BEFB-C18ECF04F1B6",
+  "qloo_name": "Stade de France",
+  "resolved_city": "Saint-Denis",
+  "resolved_country": "FR",
+  "genre": "Stadium",
+  "query": "Stade de France",
+  "wiki_city": "Saint-Denis",
+  "artists": [
+   "Bruno Mars",
+   "Coldplay",
+   "Ed Sheeran",
+   "The Weeknd"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "848CE915-392E-4C51-8C8D-5D38FB4D4686",
+  "qloo_name": "National Stadium Bukit Jalil",
+  "resolved_city": "Kuala Lumpur",
+  "resolved_country": "MY",
+  "genre": "Stadium",
+  "query": "Bukit Jalil National Stadium",
+  "wiki_city": "Kuala Lumpur",
+  "artists": [
+   "Billie Eilish",
+   "Coldplay",
+   "Ed Sheeran",
+   "Justin Bieber"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "B48C2CEE-9B5C-498A-BD6F-5A0B98DE3259",
+  "qloo_name": "Oslo Spektrum",
+  "resolved_city": "Oslo",
+  "resolved_country": "NO",
+  "genre": "Arena",
+  "query": "Oslo Spektrum",
+  "wiki_city": "Oslo",
+  "artists": [
+   "Dua Lipa",
+   "Harry Styles",
+   "Mumford & Sons",
+   "The Weeknd"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "57A212B7-2F39-4DA8-92CB-49E64F985957",
+  "qloo_name": "AO Arena",
+  "resolved_city": "Manchester",
+  "resolved_country": "GB",
+  "genre": "Arena",
+  "query": "AO Arena",
+  "wiki_city": "Manchester",
+  "artists": [
+   "Billie Eilish",
+   "Dua Lipa",
+   "Justin Bieber",
+   "SZA"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "92C5C31E-EB99-481E-9351-5E6F0E7C0362",
+  "qloo_name": "Brisbane Entertainment Centre.",
+  "resolved_city": "Brisbane",
+  "resolved_country": "AU",
+  "genre": "Concert hall",
+  "query": "Brisbane Entertainment Centre",
+  "wiki_city": "Brisbane",
+  "artists": [
+   "Dua Lipa",
+   "Mumford & Sons",
+   "SZA",
+   "Shawn Mendes"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "57A212B7-2F39-4DA8-92CB-49E64F985957",
+  "qloo_name": "AO Arena",
+  "resolved_city": "Manchester",
+  "resolved_country": "GB",
+  "genre": "Arena",
+  "query": "Manchester Arena",
+  "wiki_city": "Manchester",
+  "artists": [
+   "Ariana Grande",
+   "Bruno Mars",
+   "Shawn Mendes",
+   "The Weeknd"
+  ],
+  "n_artists": 4
+ },
+ {
+  "entity_id": "2EA1E295-50C1-43D6-9389-DB8829E37121",
+  "qloo_name": "Foro Sol",
+  "resolved_city": "Mexico City",
+  "resolved_country": "MX",
+  "genre": "Concert hall",
+  "query": "Foro Sol",
+  "wiki_city": "Mexico City",
+  "artists": [
+   "Billie Eilish",
+   "Dua Lipa",
+   "Taylor Swift"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "2224AC5B-9AD7-4916-8F6E-7CBD0C9D4B03",
+  "qloo_name": "Wembley Stadium",
+  "resolved_city": "London",
+  "resolved_country": "GB",
+  "genre": "Stadium",
+  "query": "Wembley Stadium",
+  "wiki_city": "London",
+  "artists": [
+   "Coldplay",
+   "Taylor Swift",
+   "The Weeknd"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "52639E1C-32B2-48F9-9FC2-8E1FD5C576C6",
+  "qloo_name": "Johan Cruijff Arena",
+  "resolved_city": "Amsterdam",
+  "resolved_country": "NL",
+  "genre": "Stadium",
+  "query": "Johan Cruyff Arena",
+  "wiki_city": "Amsterdam",
+  "artists": [
+   "Coldplay",
+   "Taylor Swift",
+   "The Weeknd"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "FF8F49C9-E933-46AB-9A00-4BF243036DC4",
+  "qloo_name": "Etihad Stadium",
+  "resolved_city": "Manchester",
+  "resolved_country": "GB",
+  "genre": "Stadium",
+  "query": "Etihad Stadium",
+  "wiki_city": "Manchester",
+  "artists": [
+   "Coldplay",
+   "Ed Sheeran",
+   "The Weeknd"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "125A0C9F-10D8-4795-AF61-DD18A8CF2FD8",
+  "qloo_name": "BC Place",
+  "resolved_city": "Vancouver",
+  "resolved_country": "CA",
+  "genre": "Stadium",
+  "query": "BC Place",
+  "wiki_city": "Vancouver",
+  "artists": [
+   "Coldplay",
+   "Mumford & Sons",
+   "The Weeknd"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "A6EF9B15-BFC0-4DD1-A076-8712DCA0D4B4",
+  "qloo_name": "Movistar Arena",
+  "resolved_city": "Santiago",
+  "resolved_country": "CL",
+  "genre": "Concert hall",
+  "query": "Movistar Arena",
+  "wiki_city": "Santiago",
+  "artists": [
+   "Ariana Grande",
+   "Ed Sheeran",
+   "Harry Styles"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "7EFC0E6C-1349-416A-BCA2-709301D1B8FD",
+  "qloo_name": "Palacio de los Deportes",
+  "resolved_city": "Mexico City",
+  "resolved_country": "MX",
+  "genre": "Live music venue",
+  "query": "Palacio de los Deportes",
+  "wiki_city": "Mexico City",
+  "artists": [
+   "Ariana Grande",
+   "Ed Sheeran",
+   "Harry Styles"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "3ECD6DD6-3B53-41E1-8CDF-DB0CA04D1F70",
+  "qloo_name": "SM Mall of Asia Arena",
+  "resolved_city": "Pasay",
+  "resolved_country": "PH",
+  "genre": "Arena",
+  "query": "Mall of Asia Arena",
+  "wiki_city": "Pasay",
+  "artists": [
+   "Billie Eilish",
+   "Bruno Mars",
+   "Harry Styles"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "77C20682-9036-4B8D-AEBC-F4B4C4F4D7CC",
+  "qloo_name": "Climate Pledge Arena",
+  "resolved_city": "Seattle",
+  "resolved_country": "US",
+  "genre": "Arena",
+  "query": "Climate Pledge Arena",
+  "wiki_city": "Seattle",
+  "artists": [
+   "Billie Eilish",
+   "Lizzo",
+   "Tyler, the Creator"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "AFA46F92-9337-4F9C-9CB7-7F7278116FE1",
+  "qloo_name": "Grant Park",
+  "resolved_city": "Chicago",
+  "resolved_country": "US",
+  "genre": "City park",
+  "query": "Grant Park",
+  "wiki_city": "Chicago",
+  "artists": [
+   "Bruno Mars",
+   "Dua Lipa",
+   "Mitski"
+  ],
+  "n_artists": 3
+ },
+ {
+  "entity_id": "08E07E74-69C5-4874-A272-B4ED3EBF937D",
+  "qloo_name": "Tradicionarius Goya Wizink Center",
+  "resolved_city": "Madrid",
+  "resolved_country": "ES",
+  "genre": "Coffee shop",
+  "query": "WiZink Center",
+  "wiki_city": "Madrid",
+  "artists": [
+   "Bruno Mars",
+   "Justin Bieber",
+   "Shawn Mendes"
+  ],
+  "n_artists": 3
+ }
+]

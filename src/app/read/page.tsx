@@ -66,11 +66,17 @@ export default async function ReadPage({
 
   return (
     <>
-      <h1 style={{ fontSize: 34 }}>Read a booking</h1>
-      <p className="lede" style={{ marginBottom: 26 }}>
-        Pick the room and the act. Roomtone places the act inside that room&apos;s own audience and shows the
-        same act against every other measured room, so a mismatch is visible rather than argued about.
+      <h1 style={{ fontSize: 34 }}>Read a room</h1>
+      <p className="lede" style={{ marginBottom: 14 }}>
+        Pick the room. Roomtone returns the audience Qloo assigns to it — its local crowd, expressed as acts and
+        taste — and places any act you name inside that audience.
       </p>
+      <div className="notice" style={{ marginBottom: 26 }}>
+        <strong>Read this first.</strong> Qloo&apos;s room read describes a venue&apos;s <em>local</em> audience — the
+        people who are already there. It does not predict draw, and the{" "}
+        <a href="/benchmark" style={{ color: "var(--ink)" }}>benchmark</a> that tested that found the gap plainly.
+        Use it to program a room for its own audience, not to predict a headline&apos;s gross.
+      </div>
 
       <div className="card" style={{ marginBottom: 26 }}>
         <div className="grid grid-2" style={{ gap: 20 }}>
@@ -135,7 +141,7 @@ export default async function ReadPage({
               <div>
                 <div className="tiny faint">Booking read</div>
                 <h2 style={{ margin: "4px 0 0" }}>
-                  {act.name} at {room.name}
+                  {act.name} in {room.name}&apos;s audience
                 </h2>
               </div>
               <span className={bandPill(primary.band).cls}>{bandPill(primary.band).label}</span>

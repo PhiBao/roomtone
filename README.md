@@ -8,7 +8,14 @@ into a measurable audience — then tells a promoter whether the act they are
 considering belongs in that room, who else does, and which brands actually reach
 that crowd.
 
-Built for the **Qloo Agentic Hackathon**. Apache-2.0.
+**Live demo: https://roomtone.fly.dev** · Apache-2.0 · Built for the Qloo Agentic Hackathon.
+
+> **The short version, including what it can't do.** Roomtone reads a venue's *local* audience from Qloo's taste
+> graph — who is actually there, what they listen to, which acts belong to them, which brands reach them. It does
+> not predict draw. We built an external benchmark against 149 documented plays specifically to test that, and
+> it returned a decisive no: zero of the 149 touring acts appear in the venue's top-50, while ranking by
+> popularity scores 0.995. The mechanism is diagnosed, the product claim was corrected accordingly, and the
+> benchmark is published in full at [`/benchmark`](https://roomtone.fly.dev/benchmark).
 
 ---
 
